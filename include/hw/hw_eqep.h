@@ -1,0 +1,249 @@
+/**
+ * \file  hw_eqep.h
+ *
+ * \brief EQEP register definitions
+ */
+
+
+#ifndef _HW_EQEP_H_
+#define _HW_EQEP_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+/**
+ * 	Register Definitions
+ */
+ 
+#define EQEP_QPOSCNT 				(0x0)
+#define EQEP_QPOSINIT 				(0x4)
+#define EQEP_QPOSMAX 				(0x8)
+#define EQEP_QPOSCMP 				(0xC)
+#define EQEP_QPOSILAT 				(0x10)
+#define EQEP_QPOSSLAT 				(0x14)
+#define EQEP_QPOSLAT 				(0x18)
+#define EQEP_QUTMR 					(0x1C)
+#define EQEP_QUPRD 					(0x20)
+#define EQEP_QWDTMR 				(0x24)
+#define EQEP_QWDPRD 				(0x26)
+#define EQEP_QDECCTL 				(0x28)
+#define EQEP_QEPCTL  				(0x2A)
+#define EQEP_QCAPCTL 				(0x2C)
+#define EQEP_QPOSCTL 				(0x2E)
+#define EQEP_QEINT 					(0x30)
+#define EQEP_QFLG 					(0x32)
+#define EQEP_QCLR 					(0x34)
+#define EQEP_QFRC 					(0x36)
+#define EQEP_QEPSTS 				(0x38)
+#define EQEP_QCTMR 					(0x3A)
+#define EQEP_QCPRD 					(0x3C)
+#define EQEP_QCTMRLAT 				(0x3E)
+#define EQEP_QCPRDLAT 				(0x40)
+#define EQEP_REVID 					(0x5C)
+
+/**
+ *  Macros for Register Fields
+ */
+
+#define EQEP_QDECCTL_QRSC 			(0xC000u)
+#define EQEP_QDECCTL_SOEN 			(0x2000u)
+#define EQEP_QDECCTL_SPSEL 			(0x1000u)
+#define EQEP_QDECCTL_XCR 			(0x0800u)
+#define EQEP_QDECCTL_SWAP 			(0x0400u)
+#define EQEP_QDECCTL_IGATE	 		(0x0200u)
+#define EQEP_QDECCTL_QAP 			(0x0100u)
+#define EQEP_QDECCTL_QBP 			(0x0080u)
+#define EQEP_QDECCTL_QIP 			(0x0040u)
+#define EQEP_QDECCTL_QSP 			(0x0020u)
+
+#define EQEP_QDECCTL_QRSC_SHIFT 	(0x000Fu)
+#define EQEP_QDECCTL_SOEN_SHIFT 	(0x000Du)
+#define EQEP_QDECCTL_SPSEL_SHIFT 	(0x000Cu)
+#define EQEP_QDECCTL_XCR_SHIFT 		(0x000Bu)
+#define EQEP_QDECCTL_SWAP_SHIFT 	(0x000Au)
+#define EQEP_QDECCTL_IGATE_SHIFT 	(0x0009u)
+#define EQEP_QDECCTL_QAP_SHIFT 		(0x0008u)
+#define EQEP_QDECCTL_QBP_SHIFT 		(0x0007u)
+#define EQEP_QDECCTL_QIP_SHIFT 		(0x0006u)
+#define EQEP_QDECCTL_QSP_SHIFT 		(0x0005u)
+
+
+#define EQEP_QEPCTL_FREE_SOFT (0xC000u)
+#define EQEP_QEPCTL_PCRM (0x3000u)
+#define EQEP_QEPCTL_SEI (0x0C00u)
+#define EQEP_QEPCTL_IEI (0x0300u)
+#define EQEP_QEPCTL_SWI (0x0080u)
+#define EQEP_QEPCTL_SEL (0x0040u)
+#define EQEP_QEPCTL_IEL (0x0030u)
+#define EQEP_QEPCTL_PHEN (0x0008u)
+#define EQEP_QEPCTL_QCLM (0x0004u)
+#define EQEP_QEPCTL_UTE (0x0002u)
+#define EQEP_QEPCTL_WDE (0x0001u)
+
+#define EQEP_QEPCTL_FREE_SOFT_SHIFT (0x000Fu)
+#define EQEP_QEPCTL_PCRM_SHIFT (0x000Du)
+#define EQEP_QEPCTL_SEI_SHIFT (0x000Bu)
+#define EQEP_QEPCTL_IEI_SHIFT (0x0009u)
+#define EQEP_QEPCTL_SWI_SHIFT (0x0007u)
+#define EQEP_QEPCTL_SEL_SHIFT (0x0006u)
+#define EQEP_QEPCTL_IEL_SHIFT (0x0005u)
+#define EQEP_QEPCTL_PHEN_SHIFT (0x0003u)
+#define EQEP_QEPCTL_QCLM_SHIFT (0x0002u)
+#define EQEP_QEPCTL_UTE_SHIFT (0x0001u)
+#define EQEP_QEPCTL_WDE_SHIFT (0x0000u)
+
+
+#define EQEP_QCAPCTL_CEN (0x8000u)
+#define EQEP_QCAPCTL_CCPS (0x0070u)
+#define EQEP_QCAPCTL_UPPS (0x000Fu)
+
+#define EQEP_QCAPCTL_CEN_SHIFT (0x000Fu)
+#define EQEP_QCAPCTL_CCPS_SHIFT (0x0006u)
+#define EQEP_QCAPCTL_UPPS_SHIFT (0x0003u)
+
+
+#define EQEP_QPOSCTL_PCSHDW (0x8000u)
+#define EQEP_QPOSCTL_PCLOAD (0x4000u)
+#define EQEP_QPOSCTL_PCPOL (0x2000u)
+#define EQEP_QPOSCTL_PCE (0x1000u)
+#define EQEP_QPOSCTL_PCSPW (0x0FFFu)
+
+#define EQEP_QPOSCTL_PCSHDW_SHIFT (0x000Fu)
+#define EQEP_QPOSCTL_PCLOAD_SHIFT (0x000Eu)
+#define EQEP_QPOSCTL_PCPOL_SHIFT (0x000Du)
+#define EQEP_QPOSCTL_PCE_SHIFT (0x000Cu)
+#define EQEP_QPOSCTL_PCSPW_SHIFT (0x000Bu)
+
+
+#define EQEP_QEINT_UTO (0x0800u)
+#define EQEP_QEINT_IEL (0x0400u)
+#define EQEP_QEINT_SEL (0x0200u)
+#define EQEP_QEINT_PCM (0x0100u)
+#define EQEP_QEINT_PCR (0x0080u)
+#define EQEP_QEINT_PCO (0x0040u)
+#define EQEP_QEINT_PCU (0x0020u)
+#define EQEP_QEINT_WTO (0x0010u)
+#define EQEP_QEINT_QDC (0x0008u)
+#define EQEP_QEINT_PHE (0x0004u)
+#define EQEP_QEINT_PCE (0x0002u)
+
+#define EQEP_QEINT_UTO_SHIFT (0x000Bu)
+#define EQEP_QEINT_IEL_SHIFT (0x000Au)
+#define EQEP_QEINT_SEL_SHIFT (0x0009u)
+#define EQEP_QEINT_PCM_SHIFT (0x0008u)
+#define EQEP_QEINT_PCR_SHIFT (0x0007u)
+#define EQEP_QEINT_PCO_SHIFT (0x0006u)
+#define EQEP_QEINT_PCU_SHIFT (0x0005u)
+#define EQEP_QEINT_WTO_SHIFT (0x0004u)
+#define EQEP_QEINT_QDC_SHIFT (0x0003u)
+#define EQEP_QEINT_PHE_SHIFT (0x0002u)
+#define EQEP_QEINT_PCE_SHIFT (0x0001u)
+
+
+#define EQEP_QFLG_UTO (0x0800u)
+#define EQEP_QFLG_IEL (0x0400u)
+#define EQEP_QFLG_SEL (0x0200u)
+#define EQEP_QFLG_PCM (0x0100u)
+#define EQEP_QFLG_PCR (0x0080u)
+#define EQEP_QFLG_PCO (0x0040u)
+#define EQEP_QFLG_PCU (0x0020u)
+#define EQEP_QFLG_WTO (0x0010u)
+#define EQEP_QFLG_QDC (0x0008u)
+#define EQEP_QFLG_PHE (0x0004u)
+#define EQEP_QFLG_PCE (0x0002u)
+#define EQEP_QFLG_INT (0x0001u)
+
+#define EQEP_QFLG_UTO_SHIFT (0x000Bu)
+#define EQEP_QFLG_IEL_SHIFT (0x000Au)
+#define EQEP_QFLG_SEL_SHIFT (0x0009u)
+#define EQEP_QFLG_PCM_SHIFT (0x0008u)
+#define EQEP_QFLG_PCR_SHIFT (0x0007u)
+#define EQEP_QFLG_PCO_SHIFT (0x0006u)
+#define EQEP_QFLG_PCU_SHIFT (0x0005u)
+#define EQEP_QFLG_WTO_SHIFT (0x0004u)
+#define EQEP_QFLG_QDC_SHIFT (0x0003u)
+#define EQEP_QFLG_PHE_SHIFT (0x0002u)
+#define EQEP_QFLG_PCE_SHIFT (0x0001u)
+#define EQEP_QFLG_INT_SHIFT (0x0000u)
+
+
+#define EQEP_QCLR_UTO (0x0800u)
+#define EQEP_QCLR_IEL (0x0400u)
+#define EQEP_QCLR_SEL (0x0200u)
+#define EQEP_QCLR_PCM (0x0100u)
+#define EQEP_QCLR_PCR (0x0080u)
+#define EQEP_QCLR_PCO (0x0040u)
+#define EQEP_QCLR_PCU (0x0020u)
+#define EQEP_QCLR_WTO (0x0010u)
+#define EQEP_QCLR_QDC (0x0008u)
+#define EQEP_QCLR_PHE (0x0004u)
+#define EQEP_QCLR_PCE (0x0002u)
+#define EQEP_QCLR_INT (0x0001u)
+
+#define EQEP_QCLR_UTO_SHIFT 		(0x000Bu)
+#define EQEP_QCLR_IEL_SHIFT 		(0x000Au)
+#define EQEP_QCLR_SEL_SHIFT 		(0x0009u)
+#define EQEP_QCLR_PCM_SHIFT 		(0x0008u)
+#define EQEP_QCLR_PCR_SHIFT 		(0x0007u)
+#define EQEP_QCLR_PCO_SHIFT 		(0x0006u)
+#define EQEP_QCLR_PCU_SHIFT 		(0x0005u)
+#define EQEP_QCLR_WTO_SHIFT 		(0x0004u)
+#define EQEP_QCLR_QDC_SHIFT 		(0x0003u)
+#define EQEP_QCLR_PHE_SHIFT 		(0x0002u)
+#define EQEP_QCLR_PCE_SHIFT 		(0x0001u)
+#define EQEP_QCLR_INT_SHIFT 		(0x0000u)
+
+
+#define EQEP_QFRC_UTO 				(0x0800u)
+#define EQEP_QFRC_IEL 				(0x0400u)
+#define EQEP_QFRC_SEL 				(0x0200u)
+#define EQEP_QFRC_PCM 				(0x0100u)
+#define EQEP_QFRC_PCR 				(0x0080u)
+#define EQEP_QFRC_PCO 				(0x0040u)
+#define EQEP_QFRC_PCU 				(0x0020u)
+#define EQEP_QFRC_WTO 				(0x0010u)
+#define EQEP_QFRC_QDC 				(0x0008u)
+#define EQEP_QFRC_PHE 				(0x0004u)
+#define EQEP_QFRC_PCE 				(0x0002u)
+
+#define EQEP_QFRC_UTO_SHIFT 		(0x000Bu)
+#define EQEP_QFRC_IEL_SHIFT 		(0x000Au)
+#define EQEP_QFRC_SEL_SHIFT 		(0x0009u)
+#define EQEP_QFRC_PCM_SHIFT 		(0x0008u)
+#define EQEP_QFRC_PCR_SHIFT 		(0x0007u)
+#define EQEP_QFRC_PCO_SHIFT 		(0x0006u)
+#define EQEP_QFRC_PCU_SHIFT 		(0x0005u)
+#define EQEP_QFRC_WTO_SHIFT 		(0x0004u)
+#define EQEP_QFRC_QDC_SHIFT 		(0x0003u)
+#define EQEP_QFRC_PHE_SHIFT 		(0x0002u)
+#define EQEP_QFRC_PCE_SHIFT 		(0x0001u)
+
+
+#define EQEP_QEPSTS_UPEVNT 			(0x0080u)
+#define EQEP_QEPSTS_FDF 			(0x0040u)
+#define EQEP_QEPSTS_QDF 			(0x0020u)
+#define EQEP_QEPSTS_QDLF 			(0x0010u)
+#define EQEP_QEPSTS_COEF 			(0x0008u)
+#define EQEP_QEPSTS_CDEF 			(0x0004u)
+#define EQEP_QEPSTS_FIMF 			(0x0002u)
+#define EQEP_QEPSTS_PCEF 			(0x0001u)
+
+#define EQEP_QEPSTS_CLEAR			(0x000Eu)
+
+#define EQEP_QEPSTS_UPEVNT_SHIFT 	(0x0007u)
+#define EQEP_QEPSTS_FDF_SHIFT 		(0x0006u)
+#define EQEP_QEPSTS_QDF_SHIFT 		(0x0005u)
+#define EQEP_QEPSTS_QDLF_SHIFT 		(0x0004u)
+#define EQEP_QEPSTS_COEF_SHIFT 		(0x0003u)
+#define EQEP_QEPSTS_CDEF_SHIFT 		(0x0002u)
+#define EQEP_QEPSTS_FIMF_SHIFT 		(0x0001u)
+#define EQEP_QEPSTS_PCEF_SHIFT		(0x0000u)
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
