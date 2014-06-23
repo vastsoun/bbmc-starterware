@@ -3,5 +3,5 @@ test/
 apps/
 build/
 binary/
-outputs/
+scripts/
 drv-eqep-legacy/

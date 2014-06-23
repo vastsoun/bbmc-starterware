@@ -38,6 +38,7 @@ extern "C" {
  * can be added to this if need to be saved.
  */
 
+/*
 typedef struct 
 CTRL_REGCONTEXT_STRUCT
 {
@@ -46,7 +47,7 @@ CTRL_REGCONTEXT_STRUCT
     unsigned int ioPad[CTRL_NUM_IOPAD_REGS];
 }
 ctrlRegContext_t;
-
+*/
 
 
 /*
