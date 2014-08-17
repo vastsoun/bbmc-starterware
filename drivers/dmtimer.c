@@ -42,40 +42,14 @@ static dmtimer_device_t volatile *const dmtimer[6] =
  * Register API Function Definitions: Struct-Handler Model 
  */
 
-/* Private Driver Function Declarations */
-
 /** NOTE: the current version utilizes the pre-existing direct-access functions
  *       in place of most of the private function facilities.
  */
 
+/* Private Driver Function Declarations */
+
 static void 
-_dmtimer_clk_enable (unsigned int device_id)
-{
-    if (device_id == 2)
-    {
-        DMTimer2ModuleClkConfig();
-    }
-    
-    else if (device_id == 3)
-    {
-        DMTimer3ModuleClkConfig();
-    }
-    
-    else if (device_id == 4)
-    {
-        DMTimer4ModuleClkConfig();
-    }
-    
-    else if (device_id == 5)
-    {
-        DMTimer5ModuleClkConfig();
-    }
-    
-    else
-    {
-        ;
-    }
-}
+_dmtimer_clk_enable (unsigned int device_id);
 
 
 /* General Functions */
@@ -292,7 +266,34 @@ dmtimer_tldr_config_get (unsigned int device_id)
 
 /* Private Driver Function Definitions */
 
-
+static void 
+_dmtimer_clk_enable (unsigned int device_id)
+{
+    if (device_id == 2)
+    {
+        DMTimer2ModuleClkConfig();
+    }
+    
+    else if (device_id == 3)
+    {
+        DMTimer3ModuleClkConfig();
+    }
+    
+    else if (device_id == 4)
+    {
+        DMTimer4ModuleClkConfig();
+    }
+    
+    else if (device_id == 5)
+    {
+        DMTimer5ModuleClkConfig();
+    }
+    
+    else
+    {
+        ;
+    }
+}
 
 
 /*

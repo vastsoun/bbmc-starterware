@@ -119,7 +119,7 @@ void pwmss_driver_init (void)
 
 
 /**
- * \brief  This functions enales/opens the functional and interface clocks for the L3/L4 
+ * \brief  This functions enables/opens the functional and interface clocks for the L3/L4 
  *          peripheral & system devices intercconnect NoC.
  *
  **/

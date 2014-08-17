@@ -304,6 +304,7 @@ eqep_data_t;
  * Register API Function Definitions: Struct-Handler Model 
  */
 
+
 /* General Functions */
 
 extern int eqep_open (unsigned int device_id);
@@ -321,6 +322,7 @@ extern int eqep_read (unsigned int device_id,
                        eqep_data_t volatile *data);
                        
 extern int eqep_write (unsigned int device_id, unsigned int value);
+
 
 /* Specialized functions */
 

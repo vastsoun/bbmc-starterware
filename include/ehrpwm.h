@@ -138,8 +138,8 @@ extern "C" {
 #define  EPWM   0x02
 #define  EQEP   0x03
 
-/* Functionality Definitions */
 
+/* Functionality Definitions */
 #define EHRPWM_WRITE_DIFF       (0)
 #define EHRPWM_WRITE_A          (1)
 #define EHRPWM_WRITE_B          (2)
@@ -232,6 +232,7 @@ ehrpwm_handle_t;
  * Register API Function Definitions: Struct-Handler Model 
  */
 
+
 /* General Functions */
 
 extern int ehrpwm_open (unsigned int device_id);
@@ -248,6 +249,7 @@ extern int ehrpwm_config_set (ehrpwm_handle_t *handle);
 
 extern int ehrpwm_config_get (ehrpwm_handle_t *handle);
 
+
 /* Specialized functions */
 
 extern int ehrpwm_handle_init (unsigned int device_id, ehrpwm_handle_t *handle);
@@ -262,6 +264,7 @@ extern int ehrpwm_config_frequency_get (unsigned int device_id,
 extern int ehrpwm_write (unsigned int device_id, 
                           unsigned int output_mode, 
                           double duty_cycle);
+
 
 
 /*
