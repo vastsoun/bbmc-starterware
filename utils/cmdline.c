@@ -33,7 +33,8 @@
  * \b CMDLINE_TOO_MANY_ARGS if there are more arguments than can be parsed.
  * Otherwise it returns the code that was returned by the command function.
  */
-int CmdLineProcess(char *pcCmdLine, tCmdLineEntry *CmdTable){
+int 
+CmdLineProcess(char *pcCmdLine, tCmdLineEntry *CmdTable){
     
     static char *argv[CMDLINE_MAX_ARGS + 1];
     char *pcChar;
@@ -165,6 +166,53 @@ int CmdLineProcess(char *pcCmdLine, tCmdLineEntry *CmdTable){
     UARTprintf("\r\n%s: command not found\r\n", (const char *)argv[0]);
     return(CMDLINE_BAD_CMD);
 }
+
+
+/** Functions which enable the manipulation of the cursors.
+ *  
+ */
+
+int
+CmdLineClear (void)
+{
+    UARTPuts("\033[2J\033[1;1H", -1);
+    
+    return 0;
+}
+
+int
+CmdLineNewline (unsigned int lines)
+{
+    int i;
+    
+    for (i = 0; i < lines; i++)
+    {
+        UARTPuts("\r\n", -1);
+    }
+    
+    return 0;
+}
+
+int 
+CmdLineCursorMoveTop (void)
+{
+    UARTPuts("\r\n\e[H", -1);
+    
+    return 0;
+}
+
+int 
+CmdLineCursorMoveBottom (void)
+{
+    CmdLineCursorMoveTop();
+    
+    UARTPuts("\e[30B",-1);
+    
+    return 0;
+}
+
+
+
 
 
 /* Close the Doxygen group. */

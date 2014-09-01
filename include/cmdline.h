@@ -17,9 +17,9 @@ extern "C"
 /* macro definitions */
 
 #define CMDLINE_BAD_CMD         (-1)
-#define CMDLINE_NO_CMD         	(-2)
+#define CMDLINE_NO_CMD          (-2)
 #define CMDLINE_TOO_MANY_ARGS   (-4)
-#define CMDLINE_BAD_RET			(-5)
+#define CMDLINE_BAD_RET         (-5)
 #define PRINTED_HELP_MENU       (-6)
 #define PRINTED_FUNC_HELP       (-7)
 
@@ -35,7 +35,8 @@ extern "C"
 typedef int (*pfnCmdLine)(int argc, char *argv[]);
 
 /* struct for command entries in command table */
-typedef struct{
+typedef struct
+{
     
     //A pointer to a string containing the name of the command.
     const char *pcCmd;
@@ -48,9 +49,26 @@ typedef struct{
 }
 tCmdLineEntry;
 
-/* function declarations */
 
+/** Primary CLI funtion 
+ *  
+ */
 extern int CmdLineProcess(char *pcCmdLine, tCmdLineEntry *CmdTable);
+
+
+/** Functions which enable the manipulation of the cursors.
+ *  
+ */
+
+extern int CmdLineClear (void);
+
+extern int CmdLineNewline (unsigned int lines);
+
+extern int CmdLineCursorMoveTop (void);
+
+extern int CmdLineCursorMoveBottom (void);
+
+
 
 
 #ifdef __cplusplus

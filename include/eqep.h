@@ -318,8 +318,8 @@ extern int eqep_config_set (eqep_handle_t *handle);
 extern int eqep_config_get (eqep_handle_t *handle);
 
 extern int eqep_read (unsigned int device_id, 
-                       unsigned int input_mode, 
-                       eqep_data_t volatile *data);
+                      unsigned int input_mode, 
+                      eqep_data_t volatile *data);
                        
 extern int eqep_write (unsigned int device_id, unsigned int value);
 
@@ -329,6 +329,9 @@ extern int eqep_write (unsigned int device_id, unsigned int value);
 extern int eqep_handle_init (unsigned int device_id, eqep_handle_t *handle);
 
 extern int eqep_data_init (eqep_data_t volatile *data);
+
+extern int eqep_data_copy (eqep_data_t volatile *src, 
+                           eqep_data_t volatile *dest);
 
 extern int eqep_status_get (unsigned int device_id, eqep_data_t volatile *data);
 
