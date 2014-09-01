@@ -1,8 +1,8 @@
-save_project.sh
 test/
 apps/
-build/
 bin/
 binary/
-scripts/
-drv-eqep-legacy/
+*.o*
+*.out*
+*.bin*
+*.map*

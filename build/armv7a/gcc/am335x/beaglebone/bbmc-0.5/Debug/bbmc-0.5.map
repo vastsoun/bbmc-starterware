@@ -1,0 +1,3454 @@
+Archive member included because of file (symbol)
+
+../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                              Debug/bbmc-0.5.o (dmtimer_open)
+../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                              Debug/bbmc-0.5.o (ehrpwm_open)
+../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                              Debug/bbmc-0.5.o (eqep_open)
+../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                              Debug/bbmc-0.5.o (GPIOPinWrite)
+../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                              Debug/bbmc-0.5.o (L3L4_driver_init)
+../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+                              Debug/bbmc-0.5.o (CmdLineProcess)
+../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+                              Debug/bbmc-0.5.o (PerfTimerSetup)
+../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                              Debug/bbmc-0.5.o (UARTStdioInit)
+../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+                              ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o) (DMTimer2ModuleClkConfig)
+../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                              Debug/bbmc-0.5.o (GPIO1ModuleClkConfig)
+../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+                              Debug/bbmc-0.5.o (eqep_1_pinmux_setup)
+../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+                              ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o) (SysPerfTimerSetup)
+../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+                              ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o) (UARTConsoleInit)
+../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+                              ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o) (UARTPinMuxSetup)
+../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+                              Debug/bbmc-0.5.o (CacheEnable)
+../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+                              ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o) (CP15ICacheDisable)
+../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+                              (Entry)
+../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                              Debug/bbmc-0.5.o (IntRegister)
+../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                              ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o) (start_boot)
+../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                              ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o) (CPUIntStatus)
+../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+                              ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o) (IRQHandler)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-atoi.o)
+                              Debug/bbmc-0.5.o (atoi)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-ctype_.o)
+                              Debug/bbmc-0.5.o (__ctype_ptr__)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-errno.o)
+                              Debug/bbmc-0.5.o (__errno)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-errno.o) (_impure_ptr)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+                              Debug/bbmc-0.5.o (strcmp)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strtol.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-atoi.o) (_strtol_r)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o)
+                              Debug/bbmc-0.5.o (cos)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_sin.o)
+                              Debug/bbmc-0.5.o (sin)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-w_atan2.o)
+                              Debug/bbmc-0.5.o (atan2)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-w_atan2.o) (__ieee754_atan2)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o) (__ieee754_rem_pio2)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_cos.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o) (__kernel_cos)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o) (__kernel_rem_pio2)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_sin.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o) (__kernel_sin)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_atan.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o) (atan)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_fabs.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o) (fabs)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_floor.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o) (floor)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_scalbn.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o) (scalbn)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_copysign.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_scalbn.o) (copysign)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_udivsi3.o)
+                              (__aeabi_uidiv)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_divsi3.o)
+                              (__aeabi_idiv)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_dvmd_tls.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_addsubdf3.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o) (__aeabi_dsub)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_muldivdf3.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o) (__aeabi_dmul)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_cmpdf2.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o) (__aeabi_dcmpeq)
+/home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_fixdfsi.o)
+                              /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o) (__aeabi_d2iz)
+../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                              ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o) (UARTOperatingModeSelect)
+
+Allocating common symbols
+Common symbol       size              file
+
+fnRAMVectors        0x200             ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 Debug/bbmc-0.5.o
+ .data          0x00000000        0x0 Debug/bbmc-0.5.o
+ .bss           0x00000000        0x0 Debug/bbmc-0.5.o
+ .data.g_prbs_v1_table
+                0x00000000     0x1270 Debug/bbmc-0.5.o
+ .data.g_prbs_v2_table
+                0x00000000     0x1270 Debug/bbmc-0.5.o
+ .bss.g_signalgen_sinusoid
+                0x00000000       0x50 Debug/bbmc-0.5.o
+ .text.devconfig_pwm_frequency_set
+                0x00000000       0x40 Debug/bbmc-0.5.o
+ .text.devconfig_timer_frequency_set
+                0x00000000       0x38 Debug/bbmc-0.5.o
+ .text.devconfig_io_func
+                0x00000000      0x1bc Debug/bbmc-0.5.o
+ .text.devconfig_dof_state_set
+                0x00000000       0x4c Debug/bbmc-0.5.o
+ .text.sysconfig_io_func
+                0x00000000      0x164 Debug/bbmc-0.5.o
+ .text.sysconfig_dof_state_set
+                0x00000000       0x64 Debug/bbmc-0.5.o
+ .text.sysconfig_timer_frequency_set
+                0x00000000       0xb0 Debug/bbmc-0.5.o
+ .text.contrl_rmpi_step
+                0x00000000       0x60 Debug/bbmc-0.5.o
+ .text.contrl_rmpi_step2
+                0x00000000       0x90 Debug/bbmc-0.5.o
+ .text.contrl_rmpi_sine
+                0x00000000       0xb0 Debug/bbmc-0.5.o
+ .text.signalgen_circle_poscontrl_online
+                0x00000000       0xbc Debug/bbmc-0.5.o
+ .text.signalgen_circle_speedcontrl_online
+                0x00000000       0xc8 Debug/bbmc-0.5.o
+ .text.signalgen_trapezoid_trajectcontrl_online
+                0x00000000       0x70 Debug/bbmc-0.5.o
+ .text.term_rmpi_step
+                0x00000000       0xb8 Debug/bbmc-0.5.o
+ .text.util_dtoa
+                0x00000000      0x1c8 Debug/bbmc-0.5.o
+ .text.signalgen_prbs_v0
+                0x00000000      0x6c8 Debug/bbmc-0.5.o
+ .text.signalgen_prbs_v1
+                0x00000000      0x480 Debug/bbmc-0.5.o
+ .text.signalgen_prbs_v2
+                0x00000000      0x480 Debug/bbmc-0.5.o
+ .text.bbmc_sysflags_gpreset_set
+                0x00000000       0xa4 Debug/bbmc-0.5.o
+ .text.bbmc_sysflags_gpreset_get
+                0x00000000       0x60 Debug/bbmc-0.5.o
+ .text.bbmc_sysflags_get
+                0x00000000      0x1dc Debug/bbmc-0.5.o
+ .text.bbmc_cisr_set
+                0x00000000      0x110 Debug/bbmc-0.5.o
+ .text.bbmc_cisr_get
+                0x00000000      0x114 Debug/bbmc-0.5.o
+ .text.cmnd_run_sinusoid_default
+                0x00000000       0xd8 Debug/bbmc-0.5.o
+ .text.cmnd_run_sinusoid_config
+                0x00000000       0xc8 Debug/bbmc-0.5.o
+ .data.rmpi_goto_format.7947
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_goto_format.7915
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_sine_format.7908
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_goto_format.7907
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_step2_format.7900
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_goto_format.7899
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_step_format.7892
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_goto_format.7891
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.rmpi_goto_format.7862
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .data.config_X_format.7853
+                0x00000000        0x4 Debug/bbmc-0.5.o
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.dmtimer_close
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.dmtimer_enable
+                0x00000000       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.dmtimer_disable
+                0x00000000       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.dmtimer_counter_reset
+                0x00000000       0x94 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.dmtimer_config_set
+                0x00000000       0x68 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.dmtimer_config_get
+                0x00000000       0x68 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.dmtimer_tldr_config_set
+                0x00000000       0x74 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerPreScalerClkEnable
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerPreScalerClkDisable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerGPOConfigure
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerCompareSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerCompareGet
+                0x00000000       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntRawStatusSet
+                0x00000000       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntRawStatusGet
+                0x00000000       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntStatusGet
+                0x00000000       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerTriggerSet
+                0x00000000       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntEnableGet
+                0x00000000       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerResetConfigure
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerReset
+                0x00000000       0x54 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerContextSave
+                0x00000000       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerContextRestore
+                0x00000000       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.ehrpwm_close
+                0x00000000       0x94 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.ehrpwm_config_set
+                0x00000000      0x2d8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.ehrpwm_config_get
+                0x00000000      0x2f8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.ehrpwm_config_frequency_set
+                0x00000000      0x2c8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text._dec32_to_uint3
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTimebaseClkConfig
+                0x00000000      0x12c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMPWMOpFreqSet
+                0x00000000       0xf0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTBEmulationModeSet
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTimebaseSyncEnable
+                0x00000000       0x90 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTimebaseSyncDisable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTriggerSWSync
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMSyncOutModeSet
+                0x00000000       0x4c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMWriteTBCount
+                0x00000000       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMReadTBCount
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTBStatusGet
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTBClearStatus
+                0x00000000       0x54 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMLoadCMPA
+                0x00000000      0x100 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMLoadCMPB
+                0x00000000      0x108 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMConfigureAQActionOnA
+                0x00000000      0x120 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMConfigureAQActionOnB
+                0x00000000      0x128 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMSWForceA
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMSWForceB
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMAQContSWForceOnA
+                0x00000000       0xa4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMAQContSWForceOnB
+                0x00000000       0xac ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMDBSourceSelect
+                0x00000000       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMDBPolaritySelect
+                0x00000000       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMDBOutput
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMDBConfigureRED
+                0x00000000       0x68 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMDBConfigureFED
+                0x00000000       0x68 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMConfigureChopperDuty
+                0x00000000       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMConfigureChopperFreq
+                0x00000000       0x78 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMConfigureChopperOSPW
+                0x00000000       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMChopperEnable
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMChopperDisable
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZTripEventEnable
+                0x00000000       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZTripEventDisable
+                0x00000000       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZForceAOnTrip
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZForceBOnTrip
+                0x00000000       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZIntEnable
+                0x00000000       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZIntDisable
+                0x00000000       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZFlagGet
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZFlagClear
+                0x00000000       0x3c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMTZSWFrcEvent
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETIntDisable
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETIntEnable
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETIntSourceSelect
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETIntPrescale
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETEventCount
+                0x00000000       0x3c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETIntStatus
+                0x00000000       0x3c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETIntClear
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMETIntSWForce
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMLoadTBPHSHR
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMLoadCMPAHR
+                0x00000000       0xa4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMConfigHR
+                0x00000000       0xa4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMHRDisable
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMClockEnable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMClockDisable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMClockEnableStatusGet
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text.EHRPWMClockDisableStatusGet
+                0x00000000       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_close
+                0x00000000       0xbc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_config_set
+                0x00000000      0x218 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_config_get
+                0x00000000      0x240 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_status_get
+                0x00000000       0x68 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_config_specific
+                0x00000000      0x114 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_interrupt_enable
+                0x00000000       0x98 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_interrupt_disable
+                0x00000000       0xac ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text.eqep_interrupt_status_clear
+                0x00000000       0x98 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOModuleDisable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIODirModeGet
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOMultiplePinsWrite
+                0x00000000       0x44 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOMultiplePinsRead
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOIntTypeGet
+                0x00000000      0x120 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIORawIntStatus
+                0x00000000       0x74 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOTriggerPinInt
+                0x00000000       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOWakeupGlobalEnable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOWakeupGlobalDisable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntWakeUpEnable
+                0x00000000       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntWakeUpDisable
+                0x00000000       0x8c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOAutoIdleModeControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOIdleModeConfigure
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIOGatingRatioConfigure
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.GPIORevisionInfoGet
+                0x00000000       0x28 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.gpioContextSave
+                0x00000000       0x48 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text.gpioContextRestore
+                0x00000000       0x48 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .text.L3L4_clock_domain_close
+                0x00000000       0x50 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .text.pwmss_clk_disable
+                0x00000000       0x7c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .text.pwmss_eqep_clk_disable
+                0x00000000       0x7c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .text._L3L4_clock_domain_close
+                0x00000000       0x14 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .text._pwmss_clk_disable
+                0x00000000       0xe4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .text._pwmss_eqep_clk_disable
+                0x00000000       0xf0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .text.UARTPutHexNum
+                0x00000000      0x198 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .text.UARTGetNum
+                0x00000000      0x118 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .text.UARTGetHexNum
+                0x00000000      0x2ec ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .text.DMTimer6ModuleClkConfig
+                0x00000000      0x268 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .text.GPIO0ModuleClkConfig
+                0x00000000      0x148 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .text.GPIO1Pin23PinMuxSetup
+                0x00000000       0x24 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .text.GPIO1PinMuxSetup
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .data.flagIsr  0x00000000        0x4 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheDisable
+                0x00000000       0x88 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheInstInvalidateAll
+                0x00000000       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheInstInvalidateBuff
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheDataCleanInvalidateAll
+                0x00000000       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheDataCleanAll
+                0x00000000       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheDataInvalidateAll
+                0x00000000       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheDataCleanBuff
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheDataInvalidateBuff
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .text.CacheDataCleanInvalidateBuff
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntUnRegister
+                0x00000000       0x34 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSystemDisable
+                0x00000000       0x48 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntIfClkFreeRunSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntIfClkAutoGateSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntActiveIrqNumGet
+                0x00000000       0x28 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSpurIrqFlagGet
+                0x00000000       0x28 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntProtectionEnable
+                0x00000000       0x24 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntProtectionDisable
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSyncClkFreeRunSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSyncClkAutoGateSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntFuncClkFreeRunSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntFuncClkAutoGateSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntCurrIrqPriorityGet
+                0x00000000       0x28 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPriorityThresholdGet
+                0x00000000       0x28 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPriorityThresholdSet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntRawStatusGet
+                0x00000000       0x5c ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSoftwareIntSet
+                0x00000000       0x48 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSoftwareIntClear
+                0x00000000       0x48 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPendingIrqMaskedStatusGet
+                0x00000000       0x58 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterFIQEnable
+                0x00000000       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterFIQDisable
+                0x00000000       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterStatusGet
+                0x00000000       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntDisable
+                0x00000000       0x3c ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntEnable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUSwitchToPrivilegedMode
+                0x00000000       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUSwitchToUserMode
+                0x00000000       0x24 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUAbortHandler
+                0x00000000       0x14 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUIntStatus
+                0x00000000       0x2c ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqd  0x00000000       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqe  0x00000000       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-atoi.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-atoi.o)
+ .text          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strtol.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_sin.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_sin.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-w_atan2.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-w_atan2.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_cos.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_cos.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_sin.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_sin.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_atan.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_atan.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_fabs.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_fabs.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_floor.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_floor.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_scalbn.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_scalbn.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_copysign.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_copysign.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_fixdfsi.o)
+ .text          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .data          0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .bss           0x00000000        0x0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDivisorLatchEnable
+                0x00000000       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRegConfModeRestore
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTParityModeSet
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTParityModeGet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMAEnable
+                0x00000000       0x80 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMADisable
+                0x00000000       0x54 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTEnhanFuncEnable
+                0x00000000       0x88 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTEnhanFuncBitValRestore
+                0x00000000       0x8c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSubConfigMSRSPRModeEn
+                0x00000000      0x124 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSubConfigXOFFModeEn
+                0x00000000      0x124 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntEnable
+                0x00000000      0x130 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntDisable
+                0x00000000      0x110 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSpaceAvail
+                0x00000000       0x78 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharsAvail
+                0x00000000       0x78 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharPutNonBlocking
+                0x00000000       0x8c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharGetNonBlocking
+                0x00000000       0x80 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRxErrorGet
+                0x00000000       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntIdentityGet
+                0x00000000       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntPendingStatusGet
+                0x00000000       0x78 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOEnableStatusGet
+                0x00000000       0x78 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutoRTSAutoCTSControl
+                0x00000000       0xb4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSpecialCharDetectControl
+                0x00000000       0x8c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSoftwareFlowCtrlOptSet
+                0x00000000       0x8c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTPulseShapingControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIdleModeConfigure
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutoIdleModeControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFlowCtrlTrigLvlConfig
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXON1XOFF1ValProgram
+                0x00000000       0x4c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXON2XOFF2ValProgram
+                0x00000000       0x4c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXONAnyFeatureControl
+                0x00000000      0x100 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTLoopbackModeControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemControlSet
+                0x00000000       0x44 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemControlClear
+                0x00000000       0x48 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemStatusGet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemStatusChangeCheck
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTResumeOperation
+                0x00000000       0x28 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpEventsEnable
+                0x00000000       0x44 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpEventsDisable
+                0x00000000       0x48 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOTrigLvlGranControl
+                0x00000000       0x88 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDSRInterruptControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxEmptyIntControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRXCTSDSRWakeUpConfigure
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRXCTSDSRTransitionStatusGet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMACounterResetControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxFIFOFullStatusGet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudParityGet
+                0x00000000       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudWordLenGet
+                0x00000000       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudSpeedGet
+                0x00000000       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTScratchPadRegWrite
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTScratchPadRegRead
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModuleVersionNumberGet
+                0x00000000       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxDMAThresholdControl
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxDMAThresholdValConfig
+                0x00000000       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD Debug/bbmc-0.5.o
+                0x80000000                . = 0x80000000
+                0x80000000                . = ALIGN (0x4)
+
+.startcode      0x80000000       0xb0
+ *init.o(.text)
+ .text          0x80000000       0xb0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+                0x80000000                Entry
+                0x800000b0                . = ALIGN (0x4)
+
+.text           0x800000b0     0x3b90
+ *(.text)
+ .text          0x800000b0      0x47c ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+                0x800000b0                CP15ICacheDisable
+                0x800000c0                CP15DCacheDisable
+                0x800000dc                CP15ICacheEnable
+                0x800000ec                CP15DCacheEnable
+                0x800000fc                CP15DCacheFlush
+                0x80000190                CP15DCacheClean
+                0x80000224                CP15DCacheCleanFlush
+                0x800002b8                CP15ICacheFlush
+                0x800002c8                CP15DCacheCleanBuff
+                0x8000031c                CP15DCacheCleanFlushBuff
+                0x80000370                CP15DCacheFlushBuff
+                0x800003d4                CP15ICacheFlushBuff
+                0x80000428                CP15Ttb0Set
+                0x80000434                CP15TlbInvalidate
+                0x80000440                CP15MMUDisable
+                0x80000458                CP15MMUEnable
+                0x8000046c                CP15VectorBaseAddrSet
+                0x80000478                CP15BranchPredictorInvalidate
+                0x80000484                CP15BranchPredictionEnable
+                0x80000494                CP15BranchPredictionDisable
+                0x800004a4                CP15DomainAccessClientSet
+                0x800004b4                CP15ControlFeatureDisable
+                0x800004c8                CP15ControlFeatureEnable
+                0x800004dc                CP15TtbCtlTtb0Config
+                0x800004ec                CP15AuxControlFeatureEnable
+                0x80000500                CP15AuxControlFeatureDisable
+                0x80000514                CP15MainIdPrimPartNumGet
+ .text          0x8000052c       0xe0 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+                0x8000052c                SVCHandler
+                0x80000554                IRQHandler
+                0x800005f0                FIQHandler
+                0x800005f4                UndefInstHandler
+                0x800005f4                AbortHandler
+ .text          0x8000060c       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-atoi.o)
+                0x8000060c                _atoi_r
+                0x80000624                atoi
+ .text          0x8000063c       0x10 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-errno.o)
+                0x8000063c                __errno
+ .text          0x8000064c      0x234 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+                0x8000064c                strcmp
+ .text          0x80000880      0x1f0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strtol.o)
+                0x80000880                _strtol_r
+                0x80000a44                strtol
+ .text          0x80000a70       0xfc /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o)
+                0x80000a70                cos
+ .text          0x80000b6c      0x108 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_sin.o)
+                0x80000b6c                sin
+ .text          0x80000c74       0x10 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-w_atan2.o)
+                0x80000c74                atan2
+ *fill*         0x80000c84        0x4 00
+ .text          0x80000c88      0x2e0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o)
+                0x80000c88                __ieee754_atan2
+ .text          0x80000f68      0x650 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o)
+                0x80000f68                __ieee754_rem_pio2
+ .text          0x800015b8      0x360 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_cos.o)
+                0x800015b8                __kernel_cos
+ .text          0x80001918      0xbe8 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o)
+                0x80001918                __kernel_rem_pio2
+ .text          0x80002500      0x210 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_sin.o)
+                0x80002500                __kernel_sin
+ .text          0x80002710      0x4c8 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_atan.o)
+                0x80002710                atan
+ .text          0x80002bd8       0x1c /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_fabs.o)
+                0x80002bd8                fabs
+ *fill*         0x80002bf4        0x4 00
+ .text          0x80002bf8      0x1c0 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_floor.o)
+                0x80002bf8                floor
+ .text          0x80002db8      0x1a8 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_scalbn.o)
+                0x80002db8                scalbn
+ .text          0x80002f60       0x28 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_copysign.o)
+                0x80002f60                copysign
+ .text          0x80002f88      0x114 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_udivsi3.o)
+                0x80002f88                __udivsi3
+                0x80002f88                __aeabi_uidiv
+                0x8000307c                __aeabi_uidivmod
+ .text          0x8000309c      0x148 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_divsi3.o)
+                0x8000309c                __aeabi_idiv
+                0x8000309c                __divsi3
+                0x800031c4                __aeabi_idivmod
+ .text          0x800031e4        0x4 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_dvmd_tls.o)
+                0x800031e4                __aeabi_ldiv0
+                0x800031e4                __aeabi_idiv0
+ .text          0x800031e8      0x41c /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_addsubdf3.o)
+                0x800031e8                __aeabi_drsub
+                0x800031f0                __aeabi_dsub
+                0x800031f0                __subdf3
+                0x800031f4                __adddf3
+                0x800031f4                __aeabi_dadd
+                0x80003504                __aeabi_ui2d
+                0x80003504                __floatunsidf
+                0x80003528                __floatsidf
+                0x80003528                __aeabi_i2d
+                0x80003550                __extendsfdf2
+                0x80003550                __aeabi_f2d
+                0x80003590                __aeabi_ul2d
+                0x80003590                __floatundidf
+                0x800035a4                __floatdidf
+                0x800035a4                __aeabi_l2d
+ .text          0x80003604      0x49c /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_muldivdf3.o)
+                0x80003604                __aeabi_dmul
+                0x80003604                __muldf3
+                0x80003894                __aeabi_ddiv
+                0x80003894                __divdf3
+ .text          0x80003aa0      0x144 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_cmpdf2.o)
+                0x80003aa0                __gtdf2
+                0x80003aa0                __gedf2
+                0x80003aa8                __ltdf2
+                0x80003aa8                __ledf2
+                0x80003ab0                __cmpdf2
+                0x80003ab0                __eqdf2
+                0x80003ab0                __nedf2
+                0x80003b38                __aeabi_cdrcmple
+                0x80003b54                __aeabi_cdcmple
+                0x80003b54                __aeabi_cdcmpeq
+                0x80003b6c                __aeabi_dcmpeq
+                0x80003b84                __aeabi_dcmplt
+                0x80003b9c                __aeabi_dcmple
+                0x80003bb4                __aeabi_dcmpge
+                0x80003bcc                __aeabi_dcmpgt
+ .text          0x80003be4       0x5c /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_fixdfsi.o)
+                0x80003be4                __fixdfsi
+                0x80003be4                __aeabi_d2iz
+
+.rodata         0x80003c40     0x3d00
+ .rodata        0x80003c40     0x392c Debug/bbmc-0.5.o
+ .rodata        0x8000756c       0x90 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .rodata        0x800075fc       0x24 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .rodata        0x80007620      0x101 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-ctype_.o)
+                0x80007620                _ctype_
+ *fill*         0x80007721        0x3 00
+ .rodata        0x80007724      0x188 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o)
+ *fill*         0x800078ac        0x4 00
+ .rodata        0x800078b0       0x50 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o)
+ .rodata        0x80007900       0x40 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_atan.o)
+
+.rodata.cmd_names
+                0x80007940       0xd0
+ .rodata.cmd_names
+                0x80007940       0xd0 Debug/bbmc-0.5.o
+
+.rodata.cmd_help
+                0x80007a10      0xd00
+ .rodata.cmd_help
+                0x80007a10      0xd00 Debug/bbmc-0.5.o
+
+.rodata.dmtimer
+                0x80008710       0x18
+ .rodata.dmtimer
+                0x80008710       0x18 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+
+.rodata.ehrpwm  0x80008728        0xc
+ .rodata.ehrpwm
+                0x80008728        0xc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+
+.rodata.eqep    0x80008734        0xc
+ .rodata.eqep   0x80008734        0xc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+
+.rodata.g_pcHex
+                0x80008740        0x4
+ .rodata.g_pcHex
+                0x80008740        0x4 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+
+.rodata.AM335X_VECTOR_BASE
+                0x80008744        0x4
+ .rodata.AM335X_VECTOR_BASE
+                0x80008744        0x4 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                0x80008744                AM335X_VECTOR_BASE
+
+.rodata.vecTbl  0x80008748       0x38
+ .rodata.vecTbl
+                0x80008748       0x38 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+
+.rodata.str1.4  0x80008780        0x4
+ .rodata.str1.4
+                0x80008780        0x4 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+
+.glue_7         0x80008784        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x80008784        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x80008784        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x80008784        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.text.main      0x80008784      0x128
+ .text.main     0x80008784      0x128 Debug/bbmc-0.5.o
+                0x80008784                main
+
+.text.system_halt
+                0x800088ac       0x24
+ .text.system_halt
+                0x800088ac       0x24 Debug/bbmc-0.5.o
+                0x800088ac                system_halt
+
+.text.devconfig_stdio_setup
+                0x800088d0       0x20
+ .text.devconfig_stdio_setup
+                0x800088d0       0x20 Debug/bbmc-0.5.o
+                0x800088d0                devconfig_stdio_setup
+
+.text.devconfig_mpucache_setup
+                0x800088f0       0xe0
+ .text.devconfig_mpucache_setup
+                0x800088f0       0xe0 Debug/bbmc-0.5.o
+                0x800088f0                devconfig_mpucache_setup
+
+.text.devconfig_interrupts_setup
+                0x800089d0      0x1a0
+ .text.devconfig_interrupts_setup
+                0x800089d0      0x1a0 Debug/bbmc-0.5.o
+                0x800089d0                devconfig_interrupts_setup
+
+.text.devconfig_gpio_setup
+                0x80008b70       0x74
+ .text.devconfig_gpio_setup
+                0x80008b70       0x74 Debug/bbmc-0.5.o
+                0x80008b70                devconfig_gpio_setup
+
+.text.devconfig_timer_setup
+                0x80008be4       0xf4
+ .text.devconfig_timer_setup
+                0x80008be4       0xf4 Debug/bbmc-0.5.o
+                0x80008be4                devconfig_timer_setup
+
+.text.devconfig_peripheral_setup
+                0x80008cd8       0x2c
+ .text.devconfig_peripheral_setup
+                0x80008cd8       0x2c Debug/bbmc-0.5.o
+                0x80008cd8                devconfig_peripheral_setup
+
+.text.devconfig_pwm_setup
+                0x80008d04       0x9c
+ .text.devconfig_pwm_setup
+                0x80008d04       0x9c Debug/bbmc-0.5.o
+                0x80008d04                devconfig_pwm_setup
+
+.text.devconfig_qei_setup
+                0x80008da0       0xc4
+ .text.devconfig_qei_setup
+                0x80008da0       0xc4 Debug/bbmc-0.5.o
+                0x80008da0                devconfig_qei_setup
+
+.text.devconfig_setup
+                0x80008e64      0x200
+ .text.devconfig_setup
+                0x80008e64      0x200 Debug/bbmc-0.5.o
+                0x80008e64                devconfig_setup
+
+.text.devconfig_gpio_poslim_get
+                0x80009064       0x90
+ .text.devconfig_gpio_poslim_get
+                0x80009064       0x90 Debug/bbmc-0.5.o
+                0x80009064                devconfig_gpio_poslim_get
+
+.text.devconfig_intc_master_disable
+                0x800090f4       0x20
+ .text.devconfig_intc_master_disable
+                0x800090f4       0x20 Debug/bbmc-0.5.o
+                0x800090f4                devconfig_intc_master_disable
+
+.text.devconfig_intc_master_enable
+                0x80009114       0x20
+ .text.devconfig_intc_master_enable
+                0x80009114       0x20 Debug/bbmc-0.5.o
+                0x80009114                devconfig_intc_master_enable
+
+.text.devconfig_pwm_frequency_get
+                0x80009134       0x38
+ .text.devconfig_pwm_frequency_get
+                0x80009134       0x38 Debug/bbmc-0.5.o
+                0x80009134                devconfig_pwm_frequency_get
+
+.text.devconfig_pwm_enable
+                0x8000916c       0x30
+ .text.devconfig_pwm_enable
+                0x8000916c       0x30 Debug/bbmc-0.5.o
+                0x8000916c                devconfig_pwm_enable
+
+.text.devconfig_pwm_disable
+                0x8000919c       0x30
+ .text.devconfig_pwm_disable
+                0x8000919c       0x30 Debug/bbmc-0.5.o
+                0x8000919c                devconfig_pwm_disable
+
+.text.devconfig_qei_capture
+                0x800091cc       0x40
+ .text.devconfig_qei_capture
+                0x800091cc       0x40 Debug/bbmc-0.5.o
+                0x800091cc                devconfig_qei_capture
+
+.text.devconfig_qei_data_init
+                0x8000920c       0x34
+ .text.devconfig_qei_data_init
+                0x8000920c       0x34 Debug/bbmc-0.5.o
+                0x8000920c                devconfig_qei_data_init
+
+.text.devconfig_position_set
+                0x80009240       0x38
+ .text.devconfig_position_set
+                0x80009240       0x38 Debug/bbmc-0.5.o
+                0x80009240                devconfig_position_set
+
+.text.devconfig_timer_frequency_get
+                0x80009278       0x70
+ .text.devconfig_timer_frequency_get
+                0x80009278       0x70 Debug/bbmc-0.5.o
+                0x80009278                devconfig_timer_frequency_get
+
+.text.devconfig_io_func_setup
+                0x800092e8       0x88
+ .text.devconfig_io_func_setup
+                0x800092e8       0x88 Debug/bbmc-0.5.o
+                0x800092e8                devconfig_io_func_setup
+
+.text.devconfig_poslim_disable
+                0x80009370      0x138
+ .text.devconfig_poslim_disable
+                0x80009370      0x138 Debug/bbmc-0.5.o
+                0x80009370                devconfig_poslim_disable
+
+.text.devconfig_poslim_enable
+                0x800094a8      0x138
+ .text.devconfig_poslim_enable
+                0x800094a8      0x138 Debug/bbmc-0.5.o
+                0x800094a8                devconfig_poslim_enable
+
+.text.devconfig_killswitch_enable
+                0x800095e0       0x4c
+ .text.devconfig_killswitch_enable
+                0x800095e0       0x4c Debug/bbmc-0.5.o
+                0x800095e0                devconfig_killswitch_enable
+
+.text.devconfig_killswitch_disable
+                0x8000962c       0x4c
+ .text.devconfig_killswitch_disable
+                0x8000962c       0x4c Debug/bbmc-0.5.o
+                0x8000962c                devconfig_killswitch_disable
+
+.text.devconfig_timer_run_enable
+                0x80009678       0x4c
+ .text.devconfig_timer_run_enable
+                0x80009678       0x4c Debug/bbmc-0.5.o
+                0x80009678                devconfig_timer_run_enable
+
+.text.devconfig_timer_run_disable
+                0x800096c4       0x64
+ .text.devconfig_timer_run_disable
+                0x800096c4       0x64 Debug/bbmc-0.5.o
+                0x800096c4                devconfig_timer_run_disable
+
+.text.devconfig_timer_goto_enable
+                0x80009728       0x4c
+ .text.devconfig_timer_goto_enable
+                0x80009728       0x4c Debug/bbmc-0.5.o
+                0x80009728                devconfig_timer_goto_enable
+
+.text.devconfig_timer_goto_disable
+                0x80009774       0x64
+ .text.devconfig_timer_goto_disable
+                0x80009774       0x64 Debug/bbmc-0.5.o
+                0x80009774                devconfig_timer_goto_disable
+
+.text.devconfig_timer_rmpi_enable
+                0x800097d8       0x4c
+ .text.devconfig_timer_rmpi_enable
+                0x800097d8       0x4c Debug/bbmc-0.5.o
+                0x800097d8                devconfig_timer_rmpi_enable
+
+.text.devconfig_timer_rmpi_disable
+                0x80009824       0x64
+ .text.devconfig_timer_rmpi_disable
+                0x80009824       0x64 Debug/bbmc-0.5.o
+                0x80009824                devconfig_timer_rmpi_disable
+
+.text.devconfig_timer_stop_enable
+                0x80009888       0x4c
+ .text.devconfig_timer_stop_enable
+                0x80009888       0x4c Debug/bbmc-0.5.o
+                0x80009888                devconfig_timer_stop_enable
+
+.text.devconfig_timer_stop_disable
+                0x800098d4       0x64
+ .text.devconfig_timer_stop_disable
+                0x800098d4       0x64 Debug/bbmc-0.5.o
+                0x800098d4                devconfig_timer_stop_disable
+
+.text.devconfig_gpio_killswitch_get
+                0x80009938       0x30
+ .text.devconfig_gpio_killswitch_get
+                0x80009938       0x30 Debug/bbmc-0.5.o
+                0x80009938                devconfig_gpio_killswitch_get
+
+.text.input_qei_dual
+                0x80009968       0xd0
+ .text.input_qei_dual
+                0x80009968       0xd0 Debug/bbmc-0.5.o
+                0x80009968                input_qei_dual
+
+.text.input_qei_cap
+                0x80009a38       0x54
+ .text.input_qei_cap
+                0x80009a38       0x54 Debug/bbmc-0.5.o
+                0x80009a38                input_qei_cap
+
+.text.input_qei_std
+                0x80009a8c       0x54
+ .text.input_qei_std
+                0x80009a8c       0x54 Debug/bbmc-0.5.o
+                0x80009a8c                input_qei_std
+
+.text.output_pwm_dif
+                0x80009ae0       0x3c
+ .text.output_pwm_dif
+                0x80009ae0       0x3c Debug/bbmc-0.5.o
+                0x80009ae0                output_pwm_dif
+
+.text.output_gpio_dir
+                0x80009b1c       0x70
+ .text.output_gpio_dir
+                0x80009b1c       0x70 Debug/bbmc-0.5.o
+                0x80009b1c                output_gpio_dir
+
+.text.output_pwm_dir
+                0x80009b90       0xe8
+ .text.output_pwm_dir
+                0x80009b90       0xe8 Debug/bbmc-0.5.o
+                0x80009b90                output_pwm_dir
+
+.text.sysconfig_dof_setup
+                0x80009c78      0x2fc
+ .text.sysconfig_dof_setup
+                0x80009c78      0x2fc Debug/bbmc-0.5.o
+                0x80009c78                sysconfig_dof_setup
+
+.text.sysconfig_logs_setup
+                0x80009f74      0x15c
+ .text.sysconfig_logs_setup
+                0x80009f74      0x15c Debug/bbmc-0.5.o
+                0x80009f74                sysconfig_logs_setup
+
+.text.sysconfig_poslim_setup
+                0x8000a0d0       0xf8
+ .text.sysconfig_poslim_setup
+                0x8000a0d0       0xf8 Debug/bbmc-0.5.o
+                0x8000a0d0                sysconfig_poslim_setup
+
+.text.sysconfig_contrl_stop_setup
+                0x8000a1c8       0xb4
+ .text.sysconfig_contrl_stop_setup
+                0x8000a1c8       0xb4 Debug/bbmc-0.5.o
+                0x8000a1c8                sysconfig_contrl_stop_setup
+
+.text.sysconfig_contrl_stop_init
+                0x8000a27c       0x44
+ .text.sysconfig_contrl_stop_init
+                0x8000a27c       0x44 Debug/bbmc-0.5.o
+                0x8000a27c                sysconfig_contrl_stop_init
+
+.text.sysconfig_io_func_setup
+                0x8000a2c0       0x5c
+ .text.sysconfig_io_func_setup
+                0x8000a2c0       0x5c Debug/bbmc-0.5.o
+                0x8000a2c0                sysconfig_io_func_setup
+
+.text.sysconfig_qei_capture
+                0x8000a31c       0xa4
+ .text.sysconfig_qei_capture
+                0x8000a31c       0xa4 Debug/bbmc-0.5.o
+                0x8000a31c                sysconfig_qei_capture
+
+.text.sysconfig_qei_speed_switch
+                0x8000a3c0       0x88
+ .text.sysconfig_qei_speed_switch
+                0x8000a3c0       0x88 Debug/bbmc-0.5.o
+                0x8000a3c0                sysconfig_qei_speed_switch
+
+.text.sysconfig_qei_motor
+                0x8000a448       0xb8
+ .text.sysconfig_qei_motor
+                0x8000a448       0xb8 Debug/bbmc-0.5.o
+                0x8000a448                sysconfig_qei_motor
+
+.text.sysconfig_qei_data_init
+                0x8000a500       0xa8
+ .text.sysconfig_qei_data_init
+                0x8000a500       0xa8 Debug/bbmc-0.5.o
+                0x8000a500                sysconfig_qei_data_init
+
+.text.sysconfig_position_reset
+                0x8000a5a8      0x158
+ .text.sysconfig_position_reset
+                0x8000a5a8      0x158 Debug/bbmc-0.5.o
+                0x8000a5a8                sysconfig_position_reset
+
+.text.sysconfig_position_set
+                0x8000a700       0x6c
+ .text.sysconfig_position_set
+                0x8000a700       0x6c Debug/bbmc-0.5.o
+                0x8000a700                sysconfig_position_set
+
+.text.sysconfig_pwm_frequency_get
+                0x8000a76c       0x38
+ .text.sysconfig_pwm_frequency_get
+                0x8000a76c       0x38 Debug/bbmc-0.5.o
+                0x8000a76c                sysconfig_pwm_frequency_get
+
+.text.sysconfig_pwm_enable
+                0x8000a7a4       0x30
+ .text.sysconfig_pwm_enable
+                0x8000a7a4       0x30 Debug/bbmc-0.5.o
+                0x8000a7a4                sysconfig_pwm_enable
+
+.text.sysconfig_pwm_disable
+                0x8000a7d4       0x30
+ .text.sysconfig_pwm_disable
+                0x8000a7d4       0x30 Debug/bbmc-0.5.o
+                0x8000a7d4                sysconfig_pwm_disable
+
+.text.sysconfig_timer_frequency_get
+                0x8000a804       0x38
+ .text.sysconfig_timer_frequency_get
+                0x8000a804       0x38 Debug/bbmc-0.5.o
+                0x8000a804                sysconfig_timer_frequency_get
+
+.text.sysconfig_poslim_enable
+                0x8000a83c       0x30
+ .text.sysconfig_poslim_enable
+                0x8000a83c       0x30 Debug/bbmc-0.5.o
+                0x8000a83c                sysconfig_poslim_enable
+
+.text.sysconfig_killswitch_enable
+                0x8000a86c       0x20
+ .text.sysconfig_killswitch_enable
+                0x8000a86c       0x20 Debug/bbmc-0.5.o
+                0x8000a86c                sysconfig_killswitch_enable
+
+.text.sysconfig_poslim_disable
+                0x8000a88c       0x30
+ .text.sysconfig_poslim_disable
+                0x8000a88c       0x30 Debug/bbmc-0.5.o
+                0x8000a88c                sysconfig_poslim_disable
+
+.text.sysconfig_killswitch_disable
+                0x8000a8bc       0x20
+ .text.sysconfig_killswitch_disable
+                0x8000a8bc       0x20 Debug/bbmc-0.5.o
+                0x8000a8bc                sysconfig_killswitch_disable
+
+.text.sysconfig_timer_enable
+                0x8000a8dc       0xb8
+ .text.sysconfig_timer_enable
+                0x8000a8dc       0xb8 Debug/bbmc-0.5.o
+                0x8000a8dc                sysconfig_timer_enable
+
+.text.sysconfig_timer_disable
+                0x8000a994       0xb8
+ .text.sysconfig_timer_disable
+                0x8000a994       0xb8 Debug/bbmc-0.5.o
+                0x8000a994                sysconfig_timer_disable
+
+.text.sysconfig_setup
+                0x8000aa4c       0x58
+ .text.sysconfig_setup
+                0x8000aa4c       0x58 Debug/bbmc-0.5.o
+                0x8000aa4c                sysconfig_setup
+
+.text.sysconfig_gpio_killswitch_get
+                0x8000aaa4       0x38
+ .text.sysconfig_gpio_killswitch_get
+                0x8000aaa4       0x38 Debug/bbmc-0.5.o
+                0x8000aaa4                sysconfig_gpio_killswitch_get
+
+.text.sysconfig_gpio_poslim_get
+                0x8000aadc       0x40
+ .text.sysconfig_gpio_poslim_get
+                0x8000aadc       0x40 Debug/bbmc-0.5.o
+                0x8000aadc                sysconfig_gpio_poslim_get
+
+.text.sysconfig_intc_master_enable
+                0x8000ab1c       0x20
+ .text.sysconfig_intc_master_enable
+                0x8000ab1c       0x20 Debug/bbmc-0.5.o
+                0x8000ab1c                sysconfig_intc_master_enable
+
+.text.sysconfig_intc_master_disable
+                0x8000ab3c       0x20
+ .text.sysconfig_intc_master_disable
+                0x8000ab3c       0x20 Debug/bbmc-0.5.o
+                0x8000ab3c                sysconfig_intc_master_disable
+
+.text.bbmc_setup
+                0x8000ab5c       0x30
+ .text.bbmc_setup
+                0x8000ab5c       0x30 Debug/bbmc-0.5.o
+                0x8000ab5c                bbmc_setup
+
+.text.bbmc_greeting
+                0x8000ab8c       0x34
+ .text.bbmc_greeting
+                0x8000ab8c       0x34 Debug/bbmc-0.5.o
+                0x8000ab8c                bbmc_greeting
+
+.text.traject_goto_v0
+                0x8000abc0       0x58
+ .text.traject_goto_v0
+                0x8000abc0       0x58 Debug/bbmc-0.5.o
+
+.text.traject_null
+                0x8000ac18       0x20
+ .text.traject_null
+                0x8000ac18       0x20 Debug/bbmc-0.5.o
+
+.text.traject_rmpi_si
+                0x8000ac38       0x9c
+ .text.traject_rmpi_si
+                0x8000ac38       0x9c Debug/bbmc-0.5.o
+
+.text.traject_rmpi_pid_tune
+                0x8000acd4       0x20
+ .text.traject_rmpi_pid_tune
+                0x8000acd4       0x20 Debug/bbmc-0.5.o
+
+.text.contrl_rmpi_breakaway
+                0x8000acf4       0x80
+ .text.contrl_rmpi_breakaway
+                0x8000acf4       0x80 Debug/bbmc-0.5.o
+
+.text.contrl_rmpi_si
+                0x8000ad74       0x3c
+ .text.contrl_rmpi_si
+                0x8000ad74       0x3c Debug/bbmc-0.5.o
+
+.text.signalgen_sine_generic
+                0x8000adb0       0xb0
+ .text.signalgen_sine_generic
+                0x8000adb0       0xb0 Debug/bbmc-0.5.o
+                0x8000adb0                signalgen_sine_generic
+
+.text.signalgen_cosine_generic
+                0x8000ae60       0xb0
+ .text.signalgen_cosine_generic
+                0x8000ae60       0xb0 Debug/bbmc-0.5.o
+                0x8000ae60                signalgen_cosine_generic
+
+.text.signalgen_circle_generic_setup
+                0x8000af10       0x88
+ .text.signalgen_circle_generic_setup
+                0x8000af10       0x88 Debug/bbmc-0.5.o
+                0x8000af10                signalgen_circle_generic_setup
+
+.text.signalgen_circle_trajectcontrl_online
+                0x8000af98      0x1b0
+ .text.signalgen_circle_trajectcontrl_online
+                0x8000af98      0x1b0 Debug/bbmc-0.5.o
+                0x8000af98                signalgen_circle_trajectcontrl_online
+
+.text.signalgen_trapezoid_speedcontrl_online
+                0x8000b148      0x3ec
+ .text.signalgen_trapezoid_speedcontrl_online
+                0x8000b148      0x3ec Debug/bbmc-0.5.o
+                0x8000b148                signalgen_trapezoid_speedcontrl_online
+
+.text.bbmc_kinematics_csl_carriage_setup
+                0x8000b538      0x100
+ .text.bbmc_kinematics_csl_carriage_setup
+                0x8000b538      0x100 Debug/bbmc-0.5.o
+                0x8000b538                bbmc_kinematics_csl_carriage_setup
+
+.text.contrl_reset_poscalib
+                0x8000b638       0x48
+ .text.contrl_reset_poscalib
+                0x8000b638       0x48 Debug/bbmc-0.5.o
+
+.text.contrl_test_dsr
+                0x8000b680       0xd8
+ .text.contrl_test_dsr
+                0x8000b680       0xd8 Debug/bbmc-0.5.o
+
+.text.contrl_goto_v3
+                0x8000b758       0x8c
+ .text.contrl_goto_v3
+                0x8000b758       0x8c Debug/bbmc-0.5.o
+
+.text.contrl_stop_immediate
+                0x8000b7e4       0xfc
+ .text.contrl_stop_immediate
+                0x8000b7e4       0xfc Debug/bbmc-0.5.o
+
+.text.term_rmpi_breakaway
+                0x8000b8e0       0x74
+ .text.term_rmpi_breakaway
+                0x8000b8e0       0x74 Debug/bbmc-0.5.o
+
+.text.term_rmpi_si
+                0x8000b954       0xb0
+ .text.term_rmpi_si
+                0x8000b954       0xb0 Debug/bbmc-0.5.o
+
+.text.term_reset_poscalib
+                0x8000ba04       0x20
+ .text.term_reset_poscalib
+                0x8000ba04       0x20 Debug/bbmc-0.5.o
+
+.text.term_test_dsr
+                0x8000ba24       0x20
+ .text.term_test_dsr
+                0x8000ba24       0x20 Debug/bbmc-0.5.o
+
+.text.util_strtod
+                0x8000ba48      0x450
+ .text.util_strtod
+                0x8000ba48      0x450 Debug/bbmc-0.5.o
+
+.text.util_checkpoint_yn
+                0x8000be98      0x114
+ .text.util_checkpoint_yn
+                0x8000be98      0x114 Debug/bbmc-0.5.o
+
+.text.util_delay
+                0x8000bfac       0x64
+ .text.util_delay
+                0x8000bfac       0x64 Debug/bbmc-0.5.o
+
+.text.signalgen_pulse_v1
+                0x8000c010      0x164
+ .text.signalgen_pulse_v1
+                0x8000c010      0x164 Debug/bbmc-0.5.o
+                0x8000c010                signalgen_pulse_v1
+
+.text.bbmc_sysflags_clear
+                0x8000c174      0x298
+ .text.bbmc_sysflags_clear
+                0x8000c174      0x298 Debug/bbmc-0.5.o
+                0x8000c174                bbmc_sysflags_clear
+
+.text.bbmc_sysflags_set
+                0x8000c40c      0x298
+ .text.bbmc_sysflags_set
+                0x8000c40c      0x298 Debug/bbmc-0.5.o
+                0x8000c40c                bbmc_sysflags_set
+
+.text.bbmc_sysflags_print
+                0x8000c6a4      0x20c
+ .text.bbmc_sysflags_print
+                0x8000c6a4      0x20c Debug/bbmc-0.5.o
+                0x8000c6a4                bbmc_sysflags_print
+
+.text.bbmc_cisr_init
+                0x8000c8b0       0x70
+ .text.bbmc_cisr_init
+                0x8000c8b0       0x70 Debug/bbmc-0.5.o
+                0x8000c8b0                bbmc_cisr_init
+
+.text.bbmc_cisr_print
+                0x8000c920       0xe4
+ .text.bbmc_cisr_print
+                0x8000c920       0xe4 Debug/bbmc-0.5.o
+                0x8000c920                bbmc_cisr_print
+
+.text.bbmc_cli_clear
+                0x8000ca04       0x2c
+ .text.bbmc_cli_clear
+                0x8000ca04       0x2c Debug/bbmc-0.5.o
+                0x8000ca04                bbmc_cli_clear
+
+.text.bbmc_cli_newlin
+                0x8000ca30       0x60
+ .text.bbmc_cli_newlin
+                0x8000ca30       0x60 Debug/bbmc-0.5.o
+                0x8000ca30                bbmc_cli_newlin
+
+.text.bbmc_cli_cursor_mv_top
+                0x8000ca90       0x2c
+ .text.bbmc_cli_cursor_mv_top
+                0x8000ca90       0x2c Debug/bbmc-0.5.o
+                0x8000ca90                bbmc_cli_cursor_mv_top
+
+.text.bbmc_cli_cursor_mv_bottom
+                0x8000cabc       0x38
+ .text.bbmc_cli_cursor_mv_bottom
+                0x8000cabc       0x38 Debug/bbmc-0.5.o
+                0x8000cabc                bbmc_cli_cursor_mv_bottom
+
+.text.bbmc_dof_state_print
+                0x8000caf4      0x22c
+ .text.bbmc_dof_state_print
+                0x8000caf4      0x22c Debug/bbmc-0.5.o
+                0x8000caf4                bbmc_dof_state_print
+
+.text.bbmc_poslim_print
+                0x8000cd20      0x1d8
+ .text.bbmc_poslim_print
+                0x8000cd20      0x1d8 Debug/bbmc-0.5.o
+                0x8000cd20                bbmc_poslim_print
+
+.text.bbmc_pwm_print
+                0x8000cef8       0xc0
+ .text.bbmc_pwm_print
+                0x8000cef8       0xc0 Debug/bbmc-0.5.o
+                0x8000cef8                bbmc_pwm_print
+
+.text.bbmc_qei_print
+                0x8000cfb8       0xd0
+ .text.bbmc_qei_print
+                0x8000cfb8       0xd0 Debug/bbmc-0.5.o
+                0x8000cfb8                bbmc_qei_print
+
+.text.bbmc_timers_print
+                0x8000d088      0x128
+ .text.bbmc_timers_print
+                0x8000d088      0x128 Debug/bbmc-0.5.o
+                0x8000d088                bbmc_timers_print
+
+.text.bbmc_isr_return_value
+                0x8000d1b0      0x120
+ .text.bbmc_isr_return_value
+                0x8000d1b0      0x120 Debug/bbmc-0.5.o
+                0x8000d1b0                bbmc_isr_return_value
+
+.text.bbmc_goto_home
+                0x8000d2d0       0xcc
+ .text.bbmc_goto_home
+                0x8000d2d0       0xcc Debug/bbmc-0.5.o
+                0x8000d2d0                bbmc_goto_home
+
+.text.run_traject
+                0x8000d39c       0x68
+ .text.run_traject
+                0x8000d39c       0x68 Debug/bbmc-0.5.o
+
+.text.run_contrl
+                0x8000d404       0xb4
+ .text.run_contrl
+                0x8000d404       0xb4 Debug/bbmc-0.5.o
+
+.text.run_term  0x8000d4b8       0xa4
+ .text.run_term
+                0x8000d4b8       0xa4 Debug/bbmc-0.5.o
+
+.text.run_timer_interrupt_off
+                0x8000d55c       0x3c
+ .text.run_timer_interrupt_off
+                0x8000d55c       0x3c Debug/bbmc-0.5.o
+
+.text.run_timer_interrupt_on
+                0x8000d598       0x24
+ .text.run_timer_interrupt_on
+                0x8000d598       0x24 Debug/bbmc-0.5.o
+
+.text.run_poslim_stop
+                0x8000d5bc      0x138
+ .text.run_poslim_stop
+                0x8000d5bc      0x138 Debug/bbmc-0.5.o
+
+.text.bbmc_contrl_input
+                0x8000d6f4       0x34
+ .text.bbmc_contrl_input
+                0x8000d6f4       0x34 Debug/bbmc-0.5.o
+
+.text.run_output
+                0x8000d728       0x48
+ .text.run_output
+                0x8000d728       0x48 Debug/bbmc-0.5.o
+
+.text.run_controller
+                0x8000d770       0x90
+ .text.run_controller
+                0x8000d770       0x90 Debug/bbmc-0.5.o
+
+.text.run_datalogging
+                0x8000d800       0x7c
+ .text.run_datalogging
+                0x8000d800       0x7c Debug/bbmc-0.5.o
+
+.text.isr_run   0x8000d87c       0xd8
+ .text.isr_run  0x8000d87c       0xd8 Debug/bbmc-0.5.o
+                0x8000d87c                isr_run
+
+.text.goto_timer_interrupt_on
+                0x8000d954       0x24
+ .text.goto_timer_interrupt_on
+                0x8000d954       0x24 Debug/bbmc-0.5.o
+
+.text.goto_timer_interrupt_off
+                0x8000d978       0x3c
+ .text.goto_timer_interrupt_off
+                0x8000d978       0x3c Debug/bbmc-0.5.o
+
+.text.goto_controller
+                0x8000d9b4       0xd4
+ .text.goto_controller
+                0x8000d9b4       0xd4 Debug/bbmc-0.5.o
+
+.text.goto_stop
+                0x8000da88      0x11c
+ .text.goto_stop
+                0x8000da88      0x11c Debug/bbmc-0.5.o
+
+.text.goto_debug
+                0x8000dba4       0xa8
+ .text.goto_debug
+                0x8000dba4       0xa8 Debug/bbmc-0.5.o
+
+.text.goto_output
+                0x8000dc4c       0x48
+ .text.goto_output
+                0x8000dc4c       0x48 Debug/bbmc-0.5.o
+
+.text.goto_datalogging
+                0x8000dc94       0x90
+ .text.goto_datalogging
+                0x8000dc94       0x90 Debug/bbmc-0.5.o
+
+.text.isr_goto  0x8000dd24       0xe4
+ .text.isr_goto
+                0x8000dd24       0xe4 Debug/bbmc-0.5.o
+                0x8000dd24                isr_goto
+
+.text.rmpi_timer_interrupt_on
+                0x8000de08       0x24
+ .text.rmpi_timer_interrupt_on
+                0x8000de08       0x24 Debug/bbmc-0.5.o
+
+.text.rmpi_timer_interrupt_off
+                0x8000de2c       0x3c
+ .text.rmpi_timer_interrupt_off
+                0x8000de2c       0x3c Debug/bbmc-0.5.o
+
+.text.rmpi_controller
+                0x8000de68       0x9c
+ .text.rmpi_controller
+                0x8000de68       0x9c Debug/bbmc-0.5.o
+
+.text.rmpi_poslim_stop
+                0x8000df04      0x164
+ .text.rmpi_poslim_stop
+                0x8000df04      0x164 Debug/bbmc-0.5.o
+
+.text.rmpi_datalogging
+                0x8000e068       0x6c
+ .text.rmpi_datalogging
+                0x8000e068       0x6c Debug/bbmc-0.5.o
+
+.text.isr_rmpi  0x8000e0d4      0x12c
+ .text.isr_rmpi
+                0x8000e0d4      0x12c Debug/bbmc-0.5.o
+                0x8000e0d4                isr_rmpi
+
+.text.isr_systick
+                0x8000e200       0x80
+ .text.isr_systick
+                0x8000e200       0x80 Debug/bbmc-0.5.o
+                0x8000e200                isr_systick
+
+.text.isr_gpio_pos_limit
+                0x8000e280      0x580
+ .text.isr_gpio_pos_limit
+                0x8000e280      0x580 Debug/bbmc-0.5.o
+                0x8000e280                isr_gpio_pos_limit
+
+.text.isr_gpio_killswitch
+                0x8000e800      0x330
+ .text.isr_gpio_killswitch
+                0x8000e800      0x330 Debug/bbmc-0.5.o
+                0x8000e800                isr_gpio_killswitch
+
+.text.func_run  0x8000eb30      0x254
+ .text.func_run
+                0x8000eb30      0x254 Debug/bbmc-0.5.o
+                0x8000eb30                func_run
+
+.text.func_goto
+                0x8000ed84      0x254
+ .text.func_goto
+                0x8000ed84      0x254 Debug/bbmc-0.5.o
+                0x8000ed84                func_goto
+
+.text.func_rmpi
+                0x8000efd8      0x1f8
+ .text.func_rmpi
+                0x8000efd8      0x1f8 Debug/bbmc-0.5.o
+                0x8000efd8                func_rmpi
+
+.text.bbmc_perf_init
+                0x8000f1d0       0x60
+ .text.bbmc_perf_init
+                0x8000f1d0       0x60 Debug/bbmc-0.5.o
+                0x8000f1d0                bbmc_perf_init
+
+.text.bbmc_perf_print
+                0x8000f230       0xb0
+ .text.bbmc_perf_print
+                0x8000f230       0xb0 Debug/bbmc-0.5.o
+                0x8000f230                bbmc_perf_print
+
+.text.datalog_s_setup
+                0x8000f2e0       0x98
+ .text.datalog_s_setup
+                0x8000f2e0       0x98 Debug/bbmc-0.5.o
+                0x8000f2e0                datalog_s_setup
+
+.text.datalog_s_init
+                0x8000f378      0x100
+ .text.datalog_s_init
+                0x8000f378      0x100 Debug/bbmc-0.5.o
+                0x8000f378                datalog_s_init
+
+.text.datalog_s_print
+                0x8000f478      0x3dc
+ .text.datalog_s_print
+                0x8000f478      0x3dc Debug/bbmc-0.5.o
+                0x8000f478                datalog_s_print
+
+.text.bbmc_datalog_write
+                0x8000f854      0x148
+ .text.bbmc_datalog_write
+                0x8000f854      0x148 Debug/bbmc-0.5.o
+                0x8000f854                bbmc_datalog_write
+
+.text.cmnd_run_position_init
+                0x8000f99c       0xe0
+ .text.cmnd_run_position_init
+                0x8000f99c       0xe0 Debug/bbmc-0.5.o
+                0x8000f99c                cmnd_run_position_init
+
+.text.cmnd_run_trapezoid_default
+                0x8000fa80      0x380
+ .text.cmnd_run_trapezoid_default
+                0x8000fa80      0x380 Debug/bbmc-0.5.o
+                0x8000fa80                cmnd_run_trapezoid_default
+
+.text.cmnd_run_circle_default
+                0x8000fe00      0x1ac
+ .text.cmnd_run_circle_default
+                0x8000fe00      0x1ac Debug/bbmc-0.5.o
+                0x8000fe00                cmnd_run_circle_default
+
+.text.cmnd_run_control_pid_default
+                0x8000ffac      0x104
+ .text.cmnd_run_control_pid_default
+                0x8000ffac      0x104 Debug/bbmc-0.5.o
+                0x8000ffac                cmnd_run_control_pid_default
+
+.text.cmnd_run_config_args
+                0x800100b0      0x228
+ .text.cmnd_run_config_args
+                0x800100b0      0x228 Debug/bbmc-0.5.o
+                0x800100b0                cmnd_run_config_args
+
+.text.cmnd_run_control_pid_config
+                0x800102d8      0x4fc
+ .text.cmnd_run_control_pid_config
+                0x800102d8      0x4fc Debug/bbmc-0.5.o
+                0x800102d8                cmnd_run_control_pid_config
+
+.text.cmnd_run_circle_config
+                0x800107d8      0x328
+ .text.cmnd_run_circle_config
+                0x800107d8      0x328 Debug/bbmc-0.5.o
+                0x800107d8                cmnd_run_circle_config
+
+.text.cmnd_run_trapezoid_config
+                0x80010b00      0x590
+ .text.cmnd_run_trapezoid_config
+                0x80010b00      0x590 Debug/bbmc-0.5.o
+                0x80010b00                cmnd_run_trapezoid_config
+
+.text.cmnd_run  0x80011090      0x1c4
+ .text.cmnd_run
+                0x80011090      0x1c4 Debug/bbmc-0.5.o
+                0x80011090                cmnd_run
+
+.text.cmnd_datalog_args
+                0x80011254      0x1b8
+ .text.cmnd_datalog_args
+                0x80011254      0x1b8 Debug/bbmc-0.5.o
+                0x80011254                cmnd_datalog_args
+
+.text.cmnd_datalog
+                0x8001140c      0x428
+ .text.cmnd_datalog
+                0x8001140c      0x428 Debug/bbmc-0.5.o
+                0x8001140c                cmnd_datalog
+
+.text.cmnd_perf
+                0x80011834      0x1f4
+ .text.cmnd_perf
+                0x80011834      0x1f4 Debug/bbmc-0.5.o
+                0x80011834                cmnd_perf
+
+.text.cmnd_reset_poscalib_args
+                0x80011a28      0x2d4
+ .text.cmnd_reset_poscalib_args
+                0x80011a28      0x2d4 Debug/bbmc-0.5.o
+                0x80011a28                cmnd_reset_poscalib_args
+
+.text.cmnd_reset_poscalib_func
+                0x80011d00      0x1b0
+ .text.cmnd_reset_poscalib_func
+                0x80011d00      0x1b0 Debug/bbmc-0.5.o
+                0x80011d00                cmnd_reset_poscalib_func
+
+.text.cmnd_reset
+                0x80011eb0      0x2c8
+ .text.cmnd_reset
+                0x80011eb0      0x2c8 Debug/bbmc-0.5.o
+                0x80011eb0                cmnd_reset
+
+.text.cmnd_goto_args
+                0x80012178      0x780
+ .text.cmnd_goto_args
+                0x80012178      0x780 Debug/bbmc-0.5.o
+                0x80012178                cmnd_goto_args
+
+.text.cmnd_goto_return_val
+                0x800128f8      0x164
+ .text.cmnd_goto_return_val
+                0x800128f8      0x164 Debug/bbmc-0.5.o
+                0x800128f8                cmnd_goto_return_val
+
+.text.cmnd_goto
+                0x80012a5c      0x1a0
+ .text.cmnd_goto
+                0x80012a5c      0x1a0 Debug/bbmc-0.5.o
+                0x80012a5c                cmnd_goto
+
+.text.cmnd_path
+                0x80012bfc       0x54
+ .text.cmnd_path
+                0x80012bfc       0x54 Debug/bbmc-0.5.o
+                0x80012bfc                cmnd_path
+
+.text.cmnd_config
+                0x80012c50      0x1a8
+ .text.cmnd_config
+                0x80012c50      0x1a8 Debug/bbmc-0.5.o
+                0x80012c50                cmnd_config
+
+.text.cmnd_rmpi_break
+                0x80012df8      0x168
+ .text.cmnd_rmpi_break
+                0x80012df8      0x168 Debug/bbmc-0.5.o
+                0x80012df8                cmnd_rmpi_break
+
+.text.cmnd_rmpi_break_args
+                0x80012f60      0x5ec
+ .text.cmnd_rmpi_break_args
+                0x80012f60      0x5ec Debug/bbmc-0.5.o
+                0x80012f60                cmnd_rmpi_break_args
+
+.text.cmnd_rmpi_break_func
+                0x8001354c       0xfc
+ .text.cmnd_rmpi_break_func
+                0x8001354c       0xfc Debug/bbmc-0.5.o
+                0x8001354c                cmnd_rmpi_break_func
+
+.text.cmnd_rmpi_step
+                0x80013648       0x2c
+ .text.cmnd_rmpi_step
+                0x80013648       0x2c Debug/bbmc-0.5.o
+                0x80013648                cmnd_rmpi_step
+
+.text.cmnd_rmpi_step2
+                0x80013674       0x2c
+ .text.cmnd_rmpi_step2
+                0x80013674       0x2c Debug/bbmc-0.5.o
+                0x80013674                cmnd_rmpi_step2
+
+.text.cmnd_rmpi_sine
+                0x800136a0       0x2c
+ .text.cmnd_rmpi_sine
+                0x800136a0       0x2c Debug/bbmc-0.5.o
+                0x800136a0                cmnd_rmpi_sine
+
+.text.cmnd_rmpi_pid_tune
+                0x800136cc      0x19c
+ .text.cmnd_rmpi_pid_tune
+                0x800136cc      0x19c Debug/bbmc-0.5.o
+                0x800136cc                cmnd_rmpi_pid_tune
+
+.text.cmnd_rmpi_pid_tune_args
+                0x80013868      0x27c
+ .text.cmnd_rmpi_pid_tune_args
+                0x80013868      0x27c Debug/bbmc-0.5.o
+                0x80013868                cmnd_rmpi_pid_tune_args
+
+.text.cmnd_rmpi_control_pid_config
+                0x80013ae4      0x530
+ .text.cmnd_rmpi_control_pid_config
+                0x80013ae4      0x530 Debug/bbmc-0.5.o
+                0x80013ae4                cmnd_rmpi_control_pid_config
+
+.text.cmnd_rmpi_pid_tune_func
+                0x80014014      0x114
+ .text.cmnd_rmpi_pid_tune_func
+                0x80014014      0x114 Debug/bbmc-0.5.o
+                0x80014014                cmnd_rmpi_pid_tune_func
+
+.text.cmnd_rmpi_si
+                0x80014128      0x168
+ .text.cmnd_rmpi_si
+                0x80014128      0x168 Debug/bbmc-0.5.o
+                0x80014128                cmnd_rmpi_si
+
+.text.cmnd_rmpi_si_args
+                0x80014290      0x888
+ .text.cmnd_rmpi_si_args
+                0x80014290      0x888 Debug/bbmc-0.5.o
+                0x80014290                cmnd_rmpi_si_args
+
+.text.cmnd_rmpi_si_func
+                0x80014b18      0x174
+ .text.cmnd_rmpi_si_func
+                0x80014b18      0x174 Debug/bbmc-0.5.o
+                0x80014b18                cmnd_rmpi_si_func
+
+.text.cmnd_rmpi
+                0x80014c8c      0x260
+ .text.cmnd_rmpi
+                0x80014c8c      0x260 Debug/bbmc-0.5.o
+                0x80014c8c                cmnd_rmpi
+
+.text.cmnd_test_pwm_func
+                0x80014eec      0x278
+ .text.cmnd_test_pwm_func
+                0x80014eec      0x278 Debug/bbmc-0.5.o
+                0x80014eec                cmnd_test_pwm_func
+
+.text.cmnd_test_qei_args
+                0x80015164      0x480
+ .text.cmnd_test_qei_args
+                0x80015164      0x480 Debug/bbmc-0.5.o
+                0x80015164                cmnd_test_qei_args
+
+.text.cmnd_test_qei_func
+                0x800155e4      0x254
+ .text.cmnd_test_qei_func
+                0x800155e4      0x254 Debug/bbmc-0.5.o
+                0x800155e4                cmnd_test_qei_func
+
+.text.cmnd_test_gpio_func
+                0x80015838      0x37c
+ .text.cmnd_test_gpio_func
+                0x80015838      0x37c Debug/bbmc-0.5.o
+                0x80015838                cmnd_test_gpio_func
+
+.text.cmnd_test
+                0x80015bb4      0x2ec
+ .text.cmnd_test
+                0x80015bb4      0x2ec Debug/bbmc-0.5.o
+                0x80015bb4                cmnd_test
+
+.text.cmnd_debug
+                0x80015ea0      0x108
+ .text.cmnd_debug
+                0x80015ea0      0x108 Debug/bbmc-0.5.o
+                0x80015ea0                cmnd_debug
+
+.text.cmnd_status
+                0x80015fa8      0x13c
+ .text.cmnd_status
+                0x80015fa8      0x13c Debug/bbmc-0.5.o
+                0x80015fa8                cmnd_status
+
+.text.cmnd_quit
+                0x800160e4       0x38
+ .text.cmnd_quit
+                0x800160e4       0x38 Debug/bbmc-0.5.o
+                0x800160e4                cmnd_quit
+
+.iplt           0x8001611c        0x0
+ .iplt          0x00000000        0x0 Debug/bbmc-0.5.o
+
+.text.dmtimer_open
+                0x8001611c       0x7c
+ .text.dmtimer_open
+                0x8001611c       0x7c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8001611c                dmtimer_open
+
+.text.dmtimer_init
+                0x80016198       0xc4
+ .text.dmtimer_init
+                0x80016198       0xc4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x80016198                dmtimer_init
+
+.text.dmtimer_handle_init
+                0x8001625c      0x134
+ .text.dmtimer_handle_init
+                0x8001625c      0x134 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8001625c                dmtimer_handle_init
+
+.text.dmtimer_tldr_config_get
+                0x80016390       0x6c
+ .text.dmtimer_tldr_config_get
+                0x80016390       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x80016390                dmtimer_tldr_config_get
+
+.text._dmtimer_clk_enable
+                0x800163fc       0x84
+ .text._dmtimer_clk_enable
+                0x800163fc       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+
+.text.DMTimerEnable
+                0x80016480       0x38
+ .text.DMTimerEnable
+                0x80016480       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x80016480                DMTimerEnable
+
+.text.DMTimerDisable
+                0x800164b8       0x38
+ .text.DMTimerDisable
+                0x800164b8       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x800164b8                DMTimerDisable
+
+.text.DMTimerModeConfigure
+                0x800164f0       0x60
+ .text.DMTimerModeConfigure
+                0x800164f0       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x800164f0                DMTimerModeConfigure
+
+.text.DMTimerCounterSet
+                0x80016550       0x30
+ .text.DMTimerCounterSet
+                0x80016550       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x80016550                DMTimerCounterSet
+
+.text.DMTimerCounterGet
+                0x80016580       0x2c
+ .text.DMTimerCounterGet
+                0x80016580       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x80016580                DMTimerCounterGet
+
+.text.DMTimerReloadSet
+                0x800165ac       0x30
+ .text.DMTimerReloadSet
+                0x800165ac       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x800165ac                DMTimerReloadSet
+
+.text.DMTimerReloadGet
+                0x800165dc       0x2c
+ .text.DMTimerReloadGet
+                0x800165dc       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x800165dc                DMTimerReloadGet
+
+.text.DMTimerIntStatusClear
+                0x80016608       0x34
+ .text.DMTimerIntStatusClear
+                0x80016608       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x80016608                DMTimerIntStatusClear
+
+.text.DMTimerIntEnable
+                0x8001663c       0x34
+ .text.DMTimerIntEnable
+                0x8001663c       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8001663c                DMTimerIntEnable
+
+.text.DMTimerIntDisable
+                0x80016670       0x34
+ .text.DMTimerIntDisable
+                0x80016670       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x80016670                DMTimerIntDisable
+
+.text.ehrpwm_open
+                0x800166a4       0x90
+ .text.ehrpwm_open
+                0x800166a4       0x90 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                0x800166a4                ehrpwm_open
+
+.text.ehrpwm_init
+                0x80016734      0x264
+ .text.ehrpwm_init
+                0x80016734      0x264 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                0x80016734                ehrpwm_init
+
+.text.ehrpwm_enable
+                0x80016998       0xe8
+ .text.ehrpwm_enable
+                0x80016998       0xe8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                0x80016998                ehrpwm_enable
+
+.text.ehrpwm_disable
+                0x80016a80      0x108
+ .text.ehrpwm_disable
+                0x80016a80      0x108 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                0x80016a80                ehrpwm_disable
+
+.text.ehrpwm_handle_init
+                0x80016b88      0x158
+ .text.ehrpwm_handle_init
+                0x80016b88      0x158 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                0x80016b88                ehrpwm_handle_init
+
+.text.ehrpwm_config_frequency_get
+                0x80016ce0      0x11c
+ .text.ehrpwm_config_frequency_get
+                0x80016ce0      0x11c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                0x80016ce0                ehrpwm_config_frequency_get
+
+.text.ehrpwm_write
+                0x80016dfc       0xe0
+ .text.ehrpwm_write
+                0x80016dfc       0xe0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                0x80016dfc                ehrpwm_write
+
+.text._ehrpwm_output_diff
+                0x80016ee0      0x160
+ .text._ehrpwm_output_diff
+                0x80016ee0      0x160 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+
+.text._ehrpwm_output_a
+                0x80017040       0xa0
+ .text._ehrpwm_output_a
+                0x80017040       0xa0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+
+.text._ehrpwm_output_b
+                0x800170e0       0xa0
+ .text._ehrpwm_output_b
+                0x800170e0       0xa0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+
+.text.eqep_open
+                0x80017180       0xb8
+ .text.eqep_open
+                0x80017180       0xb8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x80017180                eqep_open
+
+.text.eqep_init
+                0x80017238      0x1c0
+ .text.eqep_init
+                0x80017238      0x1c0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x80017238                eqep_init
+
+.text.eqep_read
+                0x800173f8      0x198
+ .text.eqep_read
+                0x800173f8      0x198 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x800173f8                eqep_read
+
+.text.eqep_write
+                0x80017590       0x4c
+ .text.eqep_write
+                0x80017590       0x4c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x80017590                eqep_write
+
+.text.eqep_handle_init
+                0x800175dc      0x17c
+ .text.eqep_handle_init
+                0x800175dc      0x17c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x800175dc                eqep_handle_init
+
+.text.eqep_data_init
+                0x80017758       0x94
+ .text.eqep_data_init
+                0x80017758       0x94 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x80017758                eqep_data_init
+
+.text.eqep_capture_enable
+                0x800177ec       0x88
+ .text.eqep_capture_enable
+                0x800177ec       0x88 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x800177ec                eqep_capture_enable
+
+.text.eqep_capture_disable
+                0x80017874       0x6c
+ .text.eqep_capture_disable
+                0x80017874       0x6c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x80017874                eqep_capture_disable
+
+.text.eqep_caputure_config
+                0x800178e0       0xfc
+ .text.eqep_caputure_config
+                0x800178e0       0xfc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                0x800178e0                eqep_caputure_config
+
+.text._eqep_status_get
+                0x800179dc       0x38
+ .text._eqep_status_get
+                0x800179dc       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+
+.text._eqep_input_counts_get
+                0x80017a14       0x3c
+ .text._eqep_input_counts_get
+                0x80017a14       0x3c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+
+.text._eqep_input_counts_set
+                0x80017a50       0x38
+ .text._eqep_input_counts_set
+                0x80017a50       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+
+.text._eqep_input_speed_std
+                0x80017a88       0x64
+ .text._eqep_input_speed_std
+                0x80017a88       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+
+.text._eqep_input_speed_cap
+                0x80017aec      0x3d4
+ .text._eqep_input_speed_cap
+                0x80017aec      0x3d4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+
+.text._dec32_to_log2
+                0x80017ec0       0x5c
+ .text._dec32_to_log2
+                0x80017ec0       0x5c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+
+.text.GPIOModuleReset
+                0x80017f1c       0x54
+ .text.GPIOModuleReset
+                0x80017f1c       0x54 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80017f1c                GPIOModuleReset
+
+.text.GPIOModuleEnable
+                0x80017f70       0x38
+ .text.GPIOModuleEnable
+                0x80017f70       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80017f70                GPIOModuleEnable
+
+.text.GPIODirModeSet
+                0x80017fa8       0x88
+ .text.GPIODirModeSet
+                0x80017fa8       0x88 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80017fa8                GPIODirModeSet
+
+.text.GPIOPinWrite
+                0x80018030       0x64
+ .text.GPIOPinWrite
+                0x80018030       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80018030                GPIOPinWrite
+
+.text.GPIOPinRead
+                0x80018094       0x40
+ .text.GPIOPinRead
+                0x80018094       0x40 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80018094                GPIOPinRead
+
+.text.GPIOPinIntEnable
+                0x800180d4       0x64
+ .text.GPIOPinIntEnable
+                0x800180d4       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x800180d4                GPIOPinIntEnable
+
+.text.GPIOPinIntDisable
+                0x80018138       0x64
+ .text.GPIOPinIntDisable
+                0x80018138       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80018138                GPIOPinIntDisable
+
+.text.GPIOIntTypeSet
+                0x8001819c      0x2a4
+ .text.GPIOIntTypeSet
+                0x8001819c      0x2a4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x8001819c                GPIOIntTypeSet
+
+.text.GPIOPinIntStatus
+                0x80018440       0x84
+ .text.GPIOPinIntStatus
+                0x80018440       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80018440                GPIOPinIntStatus
+
+.text.GPIOPinIntClear
+                0x800184c4       0x64
+ .text.GPIOPinIntClear
+                0x800184c4       0x64 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x800184c4                GPIOPinIntClear
+
+.text.GPIODebounceFuncControl
+                0x80018528       0x78
+ .text.GPIODebounceFuncControl
+                0x80018528       0x78 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x80018528                GPIODebounceFuncControl
+
+.text.GPIODebounceTimeConfig
+                0x800185a0       0x34
+ .text.GPIODebounceTimeConfig
+                0x800185a0       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                0x800185a0                GPIODebounceTimeConfig
+
+.text.L3L4_driver_init
+                0x800185d4       0x1c
+ .text.L3L4_driver_init
+                0x800185d4       0x1c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x800185d4                L3L4_driver_init
+
+.text.pwmss_driver_init
+                0x800185f0       0xc0
+ .text.pwmss_driver_init
+                0x800185f0       0xc0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x800185f0                pwmss_driver_init
+
+.text.L3L4_clock_domain_open
+                0x800186b0       0x50
+ .text.L3L4_clock_domain_open
+                0x800186b0       0x50 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x800186b0                L3L4_clock_domain_open
+
+.text.pwmss_clk_enable
+                0x80018700       0x7c
+ .text.pwmss_clk_enable
+                0x80018700       0x7c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x80018700                pwmss_clk_enable
+
+.text.pwmss_tbclk_enable
+                0x8001877c       0xe0
+ .text.pwmss_tbclk_enable
+                0x8001877c       0xe0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x8001877c                pwmss_tbclk_enable
+
+.text.pwmss_tbclk_disable
+                0x8001885c       0xe0
+ .text.pwmss_tbclk_disable
+                0x8001885c       0xe0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x8001885c                pwmss_tbclk_disable
+
+.text.pwmss_eqep_clk_enable
+                0x8001893c       0x7c
+ .text.pwmss_eqep_clk_enable
+                0x8001893c       0x7c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x8001893c                pwmss_eqep_clk_enable
+
+.text._L3L4_clock_domain_status_get
+                0x800189b8       0x24
+ .text._L3L4_clock_domain_status_get
+                0x800189b8       0x24 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._L3L4_clock_domain_status_set
+                0x800189dc       0x2c
+ .text._L3L4_clock_domain_status_set
+                0x800189dc       0x2c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_clk_status_get
+                0x80018a08       0x30
+ .text._pwmss_clk_status_get
+                0x80018a08       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_clk_status_set
+                0x80018a38       0x34
+ .text._pwmss_clk_status_set
+                0x80018a38       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_ehrpwm_tbclk_status_get
+                0x80018a6c       0x30
+ .text._pwmss_ehrpwm_tbclk_status_get
+                0x80018a6c       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_ehrpwm_tbclk_status_set
+                0x80018a9c       0x34
+ .text._pwmss_ehrpwm_tbclk_status_set
+                0x80018a9c       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_eqep_clk_status_get
+                0x80018ad0       0x30
+ .text._pwmss_eqep_clk_status_get
+                0x80018ad0       0x30 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_eqep_clk_status_set
+                0x80018b00       0x34
+ .text._pwmss_eqep_clk_status_set
+                0x80018b00       0x34 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._L3L4_clock_domain_open
+                0x80018b34      0x20c
+ .text._L3L4_clock_domain_open
+                0x80018b34      0x20c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_clk_enable
+                0x80018d40      0x144
+ .text._pwmss_clk_enable
+                0x80018d40      0x144 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text._pwmss_eqep_clk_enable
+                0x80018e84      0x144
+ .text._pwmss_eqep_clk_enable
+                0x80018e84      0x144 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.text.CmdLineProcess
+                0x80018fc8      0x2a4
+ .text.CmdLineProcess
+                0x80018fc8      0x2a4 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+                0x80018fc8                CmdLineProcess
+
+.text.PerfTimerSetup
+                0x8001926c       0x18
+ .text.PerfTimerSetup
+                0x8001926c       0x18 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+                0x8001926c                PerfTimerSetup
+
+.text.PerfTimerStart
+                0x80019284       0x1c
+ .text.PerfTimerStart
+                0x80019284       0x1c ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+                0x80019284                PerfTimerStart
+
+.text.PerfTimerStop
+                0x800192a0       0x24
+ .text.PerfTimerStop
+                0x800192a0       0x24 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+                0x800192a0                PerfTimerStop
+
+.text.UARTStdioInit
+                0x800192c4       0x18
+ .text.UARTStdioInit
+                0x800192c4       0x18 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x800192c4                UARTStdioInit
+
+.text.UARTPuts  0x800192dc       0xec
+ .text.UARTPuts
+                0x800192dc       0xec ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x800192dc                UARTPuts
+
+.text.UARTGets  0x800193c8      0x13c
+ .text.UARTGets
+                0x800193c8      0x13c ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x800193c8                UARTGets
+
+.text.UARTPutNum
+                0x80019504      0x178
+ .text.UARTPutNum
+                0x80019504      0x178 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x80019504                UARTPutNum
+
+.text.UARTPutDouble
+                0x80019680      0x178
+ .text.UARTPutDouble
+                0x80019680      0x178 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x80019680                UARTPutDouble
+
+.text.UARTPutc  0x800197f8       0x30
+ .text.UARTPutc
+                0x800197f8       0x30 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x800197f8                UARTPutc
+
+.text.UARTGetc  0x80019828       0x20
+ .text.UARTGetc
+                0x80019828       0x20 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x80019828                UARTGetc
+
+.text.UARTwrite
+                0x80019848       0x94
+ .text.UARTwrite
+                0x80019848       0x94 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x80019848                UARTwrite
+
+.text.UARTprintf
+                0x800198dc      0x6b8
+ .text.UARTprintf
+                0x800198dc      0x6b8 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                0x800198dc                UARTprintf
+
+.text.DMTimer2ModuleClkConfig
+                0x80019f94      0x260
+ .text.DMTimer2ModuleClkConfig
+                0x80019f94      0x260 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+                0x80019f94                DMTimer2ModuleClkConfig
+
+.text.DMTimer3ModuleClkConfig
+                0x8001a1f4      0x260
+ .text.DMTimer3ModuleClkConfig
+                0x8001a1f4      0x260 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+                0x8001a1f4                DMTimer3ModuleClkConfig
+
+.text.DMTimer4ModuleClkConfig
+                0x8001a454      0x268
+ .text.DMTimer4ModuleClkConfig
+                0x8001a454      0x268 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+                0x8001a454                DMTimer4ModuleClkConfig
+
+.text.DMTimer5ModuleClkConfig
+                0x8001a6bc      0x268
+ .text.DMTimer5ModuleClkConfig
+                0x8001a6bc      0x268 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+                0x8001a6bc                DMTimer5ModuleClkConfig
+
+.text.DMTimer7ModuleClkConfig
+                0x8001a924      0x260
+ .text.DMTimer7ModuleClkConfig
+                0x8001a924      0x260 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+                0x8001a924                DMTimer7ModuleClkConfig
+
+.text.GPIO1ModuleClkConfig
+                0x8001ab84       0xbc
+ .text.GPIO1ModuleClkConfig
+                0x8001ab84       0xbc ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001ab84                GPIO1ModuleClkConfig
+
+.text.GpioPinMuxSetup
+                0x8001ac40       0x34
+ .text.GpioPinMuxSetup
+                0x8001ac40       0x34 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001ac40                GpioPinMuxSetup
+
+.text.GpioModuleEnable
+                0x8001ac74       0x38
+ .text.GpioModuleEnable
+                0x8001ac74       0x38 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001ac74                GpioModuleEnable
+
+.text.gpio_dir_1_setup
+                0x8001acac       0x3c
+ .text.gpio_dir_1_setup
+                0x8001acac       0x3c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001acac                gpio_dir_1_setup
+
+.text.gpio_dir_2_setup
+                0x8001ace8       0x3c
+ .text.gpio_dir_2_setup
+                0x8001ace8       0x3c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001ace8                gpio_dir_2_setup
+
+.text.gpio_hall_1_setup
+                0x8001ad24       0x74
+ .text.gpio_hall_1_setup
+                0x8001ad24       0x74 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001ad24                gpio_hall_1_setup
+
+.text.gpio_hall_2_setup
+                0x8001ad98       0x74
+ .text.gpio_hall_2_setup
+                0x8001ad98       0x74 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001ad98                gpio_hall_2_setup
+
+.text.gpio_killswitch_setup
+                0x8001ae0c       0x98
+ .text.gpio_killswitch_setup
+                0x8001ae0c       0x98 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                0x8001ae0c                gpio_killswitch_setup
+
+.text.eqep_1_pinmux_setup
+                0x8001aea4       0x5c
+ .text.eqep_1_pinmux_setup
+                0x8001aea4       0x5c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+                0x8001aea4                eqep_1_pinmux_setup
+
+.text.eqep_2_pinmux_setup
+                0x8001af00       0x5c
+ .text.eqep_2_pinmux_setup
+                0x8001af00       0x5c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+                0x8001af00                eqep_2_pinmux_setup
+
+.text.ehrpwm_1_pinmux_setup
+                0x8001af5c       0x34
+ .text.ehrpwm_1_pinmux_setup
+                0x8001af5c       0x34 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+                0x8001af5c                ehrpwm_1_pinmux_setup
+
+.text.ehrpwm_2_pinmux_setup
+                0x8001af90       0x34
+ .text.ehrpwm_2_pinmux_setup
+                0x8001af90       0x34 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+                0x8001af90                ehrpwm_2_pinmux_setup
+
+.text.SysPerfTimerSetup
+                0x8001afc4       0x30
+ .text.SysPerfTimerSetup
+                0x8001afc4       0x30 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+                0x8001afc4                SysPerfTimerSetup
+
+.text.SysPerfTimerConfig
+                0x8001aff4       0x90
+ .text.SysPerfTimerConfig
+                0x8001aff4       0x90 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+                0x8001aff4                SysPerfTimerConfig
+
+.text.UARTStdioInitExpClk
+                0x8001b084       0xd0
+ .text.UARTStdioInitExpClk
+                0x8001b084       0xd0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+
+.text.UartFIFOConfigure
+                0x8001b154       0x64
+ .text.UartFIFOConfigure
+                0x8001b154       0x64 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+
+.text.UartBaudRateSet
+                0x8001b1b8       0x5c
+ .text.UartBaudRateSet
+                0x8001b1b8       0x5c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+
+.text.UARTConsoleInit
+                0x8001b214       0x44
+ .text.UARTConsoleInit
+                0x8001b214       0x44 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+                0x8001b214                UARTConsoleInit
+
+.text.UARTConsolePutc
+                0x8001b258       0x38
+ .text.UARTConsolePutc
+                0x8001b258       0x38 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+                0x8001b258                UARTConsolePutc
+
+.text.UARTConsoleGetc
+                0x8001b290       0x2c
+ .text.UARTConsoleGetc
+                0x8001b290       0x2c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+                0x8001b290                UARTConsoleGetc
+
+.text.UARTPinMuxSetup
+                0x8001b2bc       0x48
+ .text.UARTPinMuxSetup
+                0x8001b2bc       0x48 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+                0x8001b2bc                UARTPinMuxSetup
+
+.text.UART0ModuleClkConfig
+                0x8001b304      0x35c
+ .text.UART0ModuleClkConfig
+                0x8001b304      0x35c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+                0x8001b304                UART0ModuleClkConfig
+
+.text.CacheEnable
+                0x8001b660       0x94
+ .text.CacheEnable
+                0x8001b660       0x94 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+                0x8001b660                CacheEnable
+
+.text.IntDefaultHandler
+                0x8001b6f4       0x14
+ .text.IntDefaultHandler
+                0x8001b6f4       0x14 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+
+.text.IntRegister
+                0x8001b708       0x34
+ .text.IntRegister
+                0x8001b708       0x34 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001b708                IntRegister
+
+.text.IntAINTCInit
+                0x8001b73c       0x90
+ .text.IntAINTCInit
+                0x8001b73c       0x90 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001b73c                IntAINTCInit
+
+.text.IntPrioritySet
+                0x8001b7cc       0x50
+ .text.IntPrioritySet
+                0x8001b7cc       0x50 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001b7cc                IntPrioritySet
+
+.text.IntSystemEnable
+                0x8001b81c       0x48
+ .text.IntSystemEnable
+                0x8001b81c       0x48 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001b81c                IntSystemEnable
+
+.text.IntMasterIRQEnable
+                0x8001b864       0x18
+ .text.IntMasterIRQEnable
+                0x8001b864       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001b864                IntMasterIRQEnable
+
+.text.IntMasterIRQDisable
+                0x8001b87c       0x18
+ .text.IntMasterIRQDisable
+                0x8001b87c       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001b87c                IntMasterIRQDisable
+
+.text.start_boot
+                0x8001b894       0x24
+ .text.start_boot
+                0x8001b894       0x24 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                0x8001b894                start_boot
+
+.text.CopyVectorTable
+                0x8001b8b8       0x98
+ .text.CopyVectorTable
+                0x8001b8b8       0x98 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+
+.text.CPUirqd   0x8001b950       0x20
+ .text.CPUirqd  0x8001b950       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                0x8001b950                CPUirqd
+
+.text.CPUirqe   0x8001b970       0x20
+ .text.CPUirqe  0x8001b970       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                0x8001b970                CPUirqe
+
+.text.UARTOperatingModeSelect
+                0x8001b990       0x84
+ .text.UARTOperatingModeSelect
+                0x8001b990       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001b990                UARTOperatingModeSelect
+
+.text.UARTDivisorValCompute
+                0x8001ba14      0x104
+ .text.UARTDivisorValCompute
+                0x8001ba14      0x104 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001ba14                UARTDivisorValCompute
+
+.text.UARTDivisorLatchWrite
+                0x8001bb18      0x210
+ .text.UARTDivisorLatchWrite
+                0x8001bb18      0x210 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001bb18                UARTDivisorLatchWrite
+
+.text.UARTDivisorLatchDisable
+                0x8001bd28       0x38
+ .text.UARTDivisorLatchDisable
+                0x8001bd28       0x38 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001bd28                UARTDivisorLatchDisable
+
+.text.UARTRegConfigModeEnable
+                0x8001bd60       0x9c
+ .text.UARTRegConfigModeEnable
+                0x8001bd60       0x9c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001bd60                UARTRegConfigModeEnable
+
+.text.UARTBreakCtl
+                0x8001bdfc       0x60
+ .text.UARTBreakCtl
+                0x8001bdfc       0x60 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001bdfc                UARTBreakCtl
+
+.text.UARTLineCharacConfig
+                0x8001be5c       0xa4
+ .text.UARTLineCharacConfig
+                0x8001be5c       0xa4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001be5c                UARTLineCharacConfig
+
+.text.UARTFIFOConfig
+                0x8001bf00      0x450
+ .text.UARTFIFOConfig
+                0x8001bf00      0x450 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001bf00                UARTFIFOConfig
+
+.text.UARTFIFORegisterWrite
+                0x8001c350       0x90
+ .text.UARTFIFORegisterWrite
+                0x8001c350       0x90 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001c350                UARTFIFORegisterWrite
+
+.text.UARTSubConfigTCRTLRModeEn
+                0x8001c3e0      0x124
+ .text.UARTSubConfigTCRTLRModeEn
+                0x8001c3e0      0x124 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001c3e0                UARTSubConfigTCRTLRModeEn
+
+.text.UARTTCRTLRBitValRestore
+                0x8001c504      0x128
+ .text.UARTTCRTLRBitValRestore
+                0x8001c504      0x128 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001c504                UARTTCRTLRBitValRestore
+
+.text.UARTCharGet
+                0x8001c62c       0x84
+ .text.UARTCharGet
+                0x8001c62c       0x84 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001c62c                UARTCharGet
+
+.text.UARTCharPut
+                0x8001c6b0       0x78
+ .text.UARTCharPut
+                0x8001c6b0       0x78 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001c6b0                UARTCharPut
+
+.text.UARTModuleReset
+                0x8001c728       0x54
+ .text.UARTModuleReset
+                0x8001c728       0x54 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8001c728                UARTModuleReset
+
+.rel.dyn        0x8001c77c        0x0
+ .rel.iplt      0x00000000        0x0 Debug/bbmc-0.5.o
+                0x8001c77c                . = ALIGN (0x4)
+
+.data           0x8001c780      0x438
+ *(.data)
+ .data          0x8001c780        0x8 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-ctype_.o)
+                0x8001c780                __ctype_ptr
+                0x8001c784                __ctype_ptr__
+ .data          0x8001c788      0x430 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                0x8001c788                _impure_ptr
+
+.data.g_bbmc_greeting
+                0x8001cbb8        0x4
+ .data.g_bbmc_greeting
+                0x8001cbb8        0x4 Debug/bbmc-0.5.o
+
+.data.g_cmd_table
+                0x8001cbbc       0x9c
+ .data.g_cmd_table
+                0x8001cbbc       0x9c Debug/bbmc-0.5.o
+                0x8001cbbc                g_cmd_table
+
+.data.g_pulse_v1_table
+                0x8001cc58      0x108
+ .data.g_pulse_v1_table
+                0x8001cc58      0x108 Debug/bbmc-0.5.o
+
+.data.test_qei_format.8023
+                0x8001cd60        0x4
+ .data.test_qei_format.8023
+                0x8001cd60        0x4 Debug/bbmc-0.5.o
+
+.data.rmpi_si_format.7948
+                0x8001cd64        0x4
+ .data.rmpi_si_format.7948
+                0x8001cd64        0x4 Debug/bbmc-0.5.o
+
+.data.rmpi_pid_tune_format.7916
+                0x8001cd68        0x4
+ .data.rmpi_pid_tune_format.7916
+                0x8001cd68        0x4 Debug/bbmc-0.5.o
+
+.data.rmpi_break_format.7863
+                0x8001cd6c        0x4
+ .data.rmpi_break_format.7863
+                0x8001cd6c        0x4 Debug/bbmc-0.5.o
+
+.data.goto_format.7841
+                0x8001cd70        0x4
+ .data.goto_format.7841
+                0x8001cd70        0x4 Debug/bbmc-0.5.o
+
+.data.reset_calib_format.7818
+                0x8001cd74        0x4
+ .data.reset_calib_format.7818
+                0x8001cd74        0x4 Debug/bbmc-0.5.o
+
+.data.reset_goto_format.7819
+                0x8001cd78        0x4
+ .data.reset_goto_format.7819
+                0x8001cd78        0x4 Debug/bbmc-0.5.o
+
+.data.run_format.7765
+                0x8001cd7c        0x4
+ .data.run_format.7765
+                0x8001cd7c        0x4 Debug/bbmc-0.5.o
+
+.data.t1.7303   0x8001cd80        0x4
+ .data.t1.7303  0x8001cd80        0x4 Debug/bbmc-0.5.o
+
+.data.t2.7304   0x8001cd84        0x4
+ .data.t2.7304  0x8001cd84        0x4 Debug/bbmc-0.5.o
+
+.data.flag.7302
+                0x8001cd88        0x4
+ .data.flag.7302
+                0x8001cd88        0x4 Debug/bbmc-0.5.o
+
+.igot.plt       0x8001cd8c        0x0
+ .igot.plt      0x00000000        0x0 Debug/bbmc-0.5.o
+
+.data.interconnects_status
+                0x8001cd8c        0x4
+ .data.interconnects_status
+                0x8001cd8c        0x4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.data.pwmss_status
+                0x8001cd90        0xc
+ .data.pwmss_status
+                0x8001cd90        0xc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.data.pwmss_ehrpwm_tbclks_status
+                0x8001cd9c        0xc
+ .data.pwmss_ehrpwm_tbclks_status
+                0x8001cd9c        0xc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+
+.data.pwmss_eqep_clk_status
+                0x8001cda8        0xc
+ .data.pwmss_eqep_clk_status
+                0x8001cda8        0xc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                0x8001cdb4                . = ALIGN (0x4)
+                0x8001cdb4                _bss_start = .
+
+.bss            0x8001cdb4      0x200
+ *(.bss)
+ COMMON         0x8001cdb4      0x200 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001cdb4                fnRAMVectors
+                0x8001cfb4                . = ALIGN (0x4)
+                0x8001cfb4                _bss_end = .
+                0x87fffff8                _stack = 0x87fffff8
+LOAD ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a
+LOAD ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a
+LOAD ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a
+LOAD ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a
+LOAD ../../../../../..//bin/armv7a/gcc/contrlib/Debug/libcontrl.a
+LOAD /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a
+LOAD /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a
+LOAD /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a
+LOAD ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a
+LOAD ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a
+LOAD ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a
+LOAD ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a
+LOAD ../../../../../..//bin/armv7a/gcc/contrlib/Debug/libcontrl.a
+LOAD /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a
+LOAD /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a
+LOAD /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a
+OUTPUT(Debug/bbmc-0.5.out elf32-littlearm)
+
+.bss.bbmc_timers
+                0x8001cfb4      0x180
+ .bss.bbmc_timers
+                0x8001cfb4      0x180 Debug/bbmc-0.5.o
+
+.bss.bbmc_pwm   0x8001d134       0x90
+ .bss.bbmc_pwm  0x8001d134       0x90 Debug/bbmc-0.5.o
+
+.bss.bbmc_qei   0x8001d1c4       0xc8
+ .bss.bbmc_qei  0x8001d1c4       0xc8 Debug/bbmc-0.5.o
+
+.bss.g_isr_state
+                0x8001d28c        0xc
+ .bss.g_isr_state
+                0x8001d28c        0xc Debug/bbmc-0.5.o
+
+.bss.g_flags    0x8001d298       0x28
+ .bss.g_flags   0x8001d298       0x28 Debug/bbmc-0.5.o
+
+.bss.g_log_perf
+                0x8001d2c0    0x80000
+ .bss.g_log_perf
+                0x8001d2c0    0x80000 Debug/bbmc-0.5.o
+
+.bss.g_datalog  0x8009d2c0   0xc00020
+ .bss.g_datalog
+                0x8009d2c0   0xc00020 Debug/bbmc-0.5.o
+
+.bss.g_log_signalgen
+                0x80c9d2e0   0x600010
+ .bss.g_log_signalgen
+                0x80c9d2e0   0x600010 Debug/bbmc-0.5.o
+
+.bss.g_dof_state
+                0x8129d2f0       0xa0
+ .bss.g_dof_state
+                0x8129d2f0       0xa0 Debug/bbmc-0.5.o
+
+.bss.g_position_limits
+                0x8129d390       0x10
+ .bss.g_position_limits
+                0x8129d390       0x10 Debug/bbmc-0.5.o
+
+.bss.g_position_init
+                0x8129d3a0       0x10
+ .bss.g_position_init
+                0x8129d3a0       0x10 Debug/bbmc-0.5.o
+
+.bss.g_position_home
+                0x8129d3b0       0x10
+ .bss.g_position_home
+                0x8129d3b0       0x10 Debug/bbmc-0.5.o
+
+.bss.g_args_contrl
+                0x8129d3c0      0x120
+ .bss.g_args_contrl
+                0x8129d3c0      0x120 Debug/bbmc-0.5.o
+
+.bss.g_args_goto
+                0x8129d4e0      0x120
+ .bss.g_args_goto
+                0x8129d4e0      0x120 Debug/bbmc-0.5.o
+
+.bss.g_args_stop
+                0x8129d600      0x120
+ .bss.g_args_stop
+                0x8129d600      0x120 Debug/bbmc-0.5.o
+
+.bss.g_func_tbl
+                0x8129d720       0x28
+ .bss.g_func_tbl
+                0x8129d720       0x28 Debug/bbmc-0.5.o
+
+.bss.rmpi_io    0x8129d748        0x8
+ .bss.rmpi_io   0x8129d748        0x8 Debug/bbmc-0.5.o
+
+.bss.rmpi_contrl
+                0x8129d750        0xc
+ .bss.rmpi_contrl
+                0x8129d750        0xc Debug/bbmc-0.5.o
+
+.bss.rmpi_log   0x8129d75c        0x4
+ .bss.rmpi_log  0x8129d75c        0x4 Debug/bbmc-0.5.o
+
+.bss.rmpi_limits
+                0x8129d760        0x4
+ .bss.rmpi_limits
+                0x8129d760        0x4 Debug/bbmc-0.5.o
+
+.bss.rmpi_state
+                0x8129d764        0x4
+ .bss.rmpi_state
+                0x8129d764        0x4 Debug/bbmc-0.5.o
+
+.bss.rmpi_args  0x8129d768        0x4
+ .bss.rmpi_args
+                0x8129d768        0x4 Debug/bbmc-0.5.o
+
+.bss.g_signalgen_trapezoid
+                0x8129d770       0x70
+ .bss.g_signalgen_trapezoid
+                0x8129d770       0x70 Debug/bbmc-0.5.o
+
+.bss.g_signalgen_circle
+                0x8129d7e0       0x50
+ .bss.g_signalgen_circle
+                0x8129d7e0       0x50 Debug/bbmc-0.5.o
+
+.bss.g_carriage_kinematics
+                0x8129d830       0x10
+ .bss.g_carriage_kinematics
+                0x8129d830       0x10 Debug/bbmc-0.5.o
+
+.bss.timer_ticks
+                0x8129d840        0x4
+ .bss.timer_ticks
+                0x8129d840        0x4 Debug/bbmc-0.5.o
+
+.bss.timer_ticking
+                0x8129d844        0x4
+ .bss.timer_ticking
+                0x8129d844        0x4 Debug/bbmc-0.5.o
+
+.bss.counter.7613
+                0x8129d848        0x4
+ .bss.counter.7613
+                0x8129d848        0x4 Debug/bbmc-0.5.o
+
+.bss.counter.7604
+                0x8129d84c        0x4
+ .bss.counter.7604
+                0x8129d84c        0x4 Debug/bbmc-0.5.o
+
+.bss.i.7325     0x8129d850        0x4
+ .bss.i.7325    0x8129d850        0x4 Debug/bbmc-0.5.o
+
+.bss.cmd_rx_buff.6869
+                0x8129d854       0x80
+ .bss.cmd_rx_buff.6869
+                0x8129d854       0x80 Debug/bbmc-0.5.o
+
+.bss.cmd_ret.6870
+                0x8129d8d4        0x4
+ .bss.cmd_ret.6870
+                0x8129d8d4        0x4 Debug/bbmc-0.5.o
+
+.bss.argv.4424  0x8129d8d8       0x44
+ .bss.argv.4424
+                0x8129d8d8       0x44 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+
+.debug_info     0x00000000     0xa73c
+ .debug_info    0x00000000     0x4948 Debug/bbmc-0.5.o
+ .debug_info    0x00004948      0x9c4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_info    0x0000530c     0x150e ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .debug_info    0x0000681a      0x998 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .debug_info    0x000071b2      0x7af ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .debug_info    0x00007961      0x474 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .debug_info    0x00007dd5      0x18f ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .debug_info    0x00007f64       0x77 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .debug_info    0x00007fdb      0x4e6 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .debug_info    0x000084c1       0xc6 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .debug_info    0x00008587      0x190 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .debug_info    0x00008717       0x82 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .debug_info    0x00008799       0xb4 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .debug_info    0x0000884d      0x156 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .debug_info    0x000089a3       0x7e ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .debug_info    0x00008a21      0x1b3 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .debug_info    0x00008bd4       0xa8 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_info    0x00008c7c       0xa8 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_info    0x00008d24      0x476 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_info    0x0000919a       0xe7 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_info    0x00009281       0xf8 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_info    0x00009379       0xbb ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_info    0x00009434     0x1308 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.debug_abbrev   0x00000000     0x13f2
+ .debug_abbrev  0x00000000      0x2b9 Debug/bbmc-0.5.o
+ .debug_abbrev  0x000002b9      0x14f ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_abbrev  0x00000408      0x19b ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .debug_abbrev  0x000005a3      0x1bb ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .debug_abbrev  0x0000075e      0x12f ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .debug_abbrev  0x0000088d      0x13c ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .debug_abbrev  0x000009c9       0xc1 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .debug_abbrev  0x00000a8a       0x53 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .debug_abbrev  0x00000add      0x197 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .debug_abbrev  0x00000c74       0x51 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .debug_abbrev  0x00000cc5       0xc6 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .debug_abbrev  0x00000d8b       0x2e ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .debug_abbrev  0x00000db9       0x7a ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .debug_abbrev  0x00000e33       0xa3 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .debug_abbrev  0x00000ed6       0x62 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .debug_abbrev  0x00000f38       0x7a ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .debug_abbrev  0x00000fb2       0x14 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_abbrev  0x00000fc6       0x14 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_abbrev  0x00000fda      0x1c2 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_abbrev  0x0000119c       0xa4 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_abbrev  0x00001240       0x64 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_abbrev  0x000012a4       0x14 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_abbrev  0x000012b8      0x13a ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.debug_loc      0x00000000     0x6084
+ .debug_loc     0x00000000     0x24d4 Debug/bbmc-0.5.o
+ .debug_loc     0x000024d4      0x630 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_loc     0x00002b04      0xbdc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .debug_loc     0x000036e0      0x3f4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .debug_loc     0x00003ad4      0x4fc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .debug_loc     0x00003fd0      0x420 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .debug_loc     0x000043f0       0x2c ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .debug_loc     0x0000441c       0x84 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .debug_loc     0x000044a0      0x21c ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .debug_loc     0x000046bc      0x108 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .debug_loc     0x000047c4      0x1e4 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .debug_loc     0x000049a8       0xb0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .debug_loc     0x00004a58       0x58 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .debug_loc     0x00004ab0      0x108 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .debug_loc     0x00004bb8       0x58 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .debug_loc     0x00004c10      0x1b8 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .debug_loc     0x00004dc8      0x554 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_loc     0x0000531c       0x58 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_loc     0x00005374      0x160 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_loc     0x000054d4      0xbb0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.debug_aranges  0x00000000     0x13c8
+ .debug_aranges
+                0x00000000      0x6c8 Debug/bbmc-0.5.o
+ .debug_aranges
+                0x000006c8      0x138 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_aranges
+                0x00000800      0x240 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .debug_aranges
+                0x00000a40       0xd0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .debug_aranges
+                0x00000b10      0x100 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .debug_aranges
+                0x00000c10       0xd8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .debug_aranges
+                0x00000ce8       0x20 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .debug_aranges
+                0x00000d08       0x30 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .debug_aranges
+                0x00000d38       0x78 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .debug_aranges
+                0x00000db0       0x48 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .debug_aranges
+                0x00000df8       0x70 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .debug_aranges
+                0x00000e68       0x38 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .debug_aranges
+                0x00000ea0       0x28 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .debug_aranges
+                0x00000ec8       0x48 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .debug_aranges
+                0x00000f10       0x28 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .debug_aranges
+                0x00000f38       0x68 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .debug_aranges
+                0x00000fa0       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_aranges
+                0x00000fc0       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_aranges
+                0x00000fe0      0x110 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_aranges
+                0x000010f0       0x28 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_aranges
+                0x00001118       0x58 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_aranges
+                0x00001170       0x20 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_aranges
+                0x00001190      0x238 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.debug_ranges   0x00000000     0x1228
+ .debug_ranges  0x00000000      0x6b8 Debug/bbmc-0.5.o
+ .debug_ranges  0x000006b8      0x128 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_ranges  0x000007e0      0x230 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .debug_ranges  0x00000a10       0xc0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .debug_ranges  0x00000ad0       0xf0 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .debug_ranges  0x00000bc0       0xc8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .debug_ranges  0x00000c88       0x10 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .debug_ranges  0x00000c98       0x20 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .debug_ranges  0x00000cb8       0x68 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .debug_ranges  0x00000d20       0x38 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .debug_ranges  0x00000d58       0x60 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .debug_ranges  0x00000db8       0x28 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .debug_ranges  0x00000de0       0x18 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .debug_ranges  0x00000df8       0x38 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .debug_ranges  0x00000e30       0x18 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .debug_ranges  0x00000e48       0x58 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .debug_ranges  0x00000ea0      0x100 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_ranges  0x00000fa0       0x18 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_ranges  0x00000fb8       0x48 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_ranges  0x00001000      0x228 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.debug_line     0x00000000     0x507d
+ .debug_line    0x00000000     0x1fe4 Debug/bbmc-0.5.o
+ .debug_line    0x00001fe4      0x3d8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_line    0x000023bc      0x742 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .debug_line    0x00002afe      0x352 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .debug_line    0x00002e50      0x2db ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .debug_line    0x0000312b      0x349 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .debug_line    0x00003474       0xb8 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .debug_line    0x0000352c       0x6d ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .debug_line    0x00003599      0x385 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .debug_line    0x0000391e      0x395 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .debug_line    0x00003cb3      0x1be ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .debug_line    0x00003e71       0x9e ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .debug_line    0x00003f0f       0x7d ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .debug_line    0x00003f8c       0xd4 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .debug_line    0x00004060      0x16c ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .debug_line    0x000041cc      0x10e ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .debug_line    0x000042da      0x187 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_line    0x00004461       0x92 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_line    0x000044f3      0x2b9 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_line    0x000047ac       0x96 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_line    0x00004842       0xde ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_line    0x00004920       0xb5 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_line    0x000049d5      0x6a8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.debug_str      0x00000000     0x4422
+ .debug_str     0x00000000     0x1e19 Debug/bbmc-0.5.o
+                               0x1f76 (size before relaxing)
+ .debug_str     0x00001e19      0x3c1 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                                0x52c (size before relaxing)
+ .debug_str     0x000021da      0x7ac ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+                                0x9f3 (size before relaxing)
+ .debug_str     0x00002986      0x1dd ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+                                0x496 (size before relaxing)
+ .debug_str     0x00002b63      0x302 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+                                0x3d6 (size before relaxing)
+ .debug_str     0x00002e65      0x21e ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+                                0x377 (size before relaxing)
+ .debug_str     0x00003083       0x9a ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+                                0x1ac (size before relaxing)
+ .debug_str     0x0000311d       0x37 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+                                 0xdd (size before relaxing)
+ .debug_str     0x00003154      0x17b ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+                                0x24e (size before relaxing)
+ .debug_str     0x000032cf      0x11a ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+                                0x191 (size before relaxing)
+ .debug_str     0x000033e9      0x129 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+                                0x203 (size before relaxing)
+ .debug_str     0x00003512       0x86 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+                                0x125 (size before relaxing)
+ .debug_str     0x00003598       0x6d ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+                                0x14d (size before relaxing)
+ .debug_str     0x00003605       0xd7 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+                                0x1a9 (size before relaxing)
+ .debug_str     0x000036dc       0x62 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+                                0x12f (size before relaxing)
+ .debug_str     0x0000373e      0x174 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+                                0x1ca (size before relaxing)
+ .debug_str     0x000038b2      0x295 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                                0x391 (size before relaxing)
+ .debug_str     0x00003b47       0x70 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                                0x146 (size before relaxing)
+ .debug_str     0x00003bb7       0x9f ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                                0x145 (size before relaxing)
+ .debug_str     0x00003c56      0x7cc ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                                0x8ef (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 Debug/bbmc-0.5.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .comment       0x00000000       0x71 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.ARM.attributes
+                0x00000000       0x39
+ .ARM.attributes
+                0x00000000       0x37 Debug/bbmc-0.5.o
+ .ARM.attributes
+                0x00000037       0x37 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .ARM.attributes
+                0x0000006e       0x37 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .ARM.attributes
+                0x000000a5       0x37 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .ARM.attributes
+                0x000000dc       0x37 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .ARM.attributes
+                0x00000113       0x37 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .ARM.attributes
+                0x0000014a       0x37 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .ARM.attributes
+                0x00000181       0x37 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .ARM.attributes
+                0x000001b8       0x37 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .ARM.attributes
+                0x000001ef       0x37 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .ARM.attributes
+                0x00000226       0x37 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .ARM.attributes
+                0x0000025d       0x37 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .ARM.attributes
+                0x00000294       0x37 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .ARM.attributes
+                0x000002cb       0x37 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .ARM.attributes
+                0x00000302       0x37 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .ARM.attributes
+                0x00000339       0x37 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .ARM.attributes
+                0x00000370       0x21 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .ARM.attributes
+                0x00000391       0x21 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .ARM.attributes
+                0x000003b2       0x37 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .ARM.attributes
+                0x000003e9       0x37 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .ARM.attributes
+                0x00000420       0x37 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .ARM.attributes
+                0x00000457       0x21 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .ARM.attributes
+                0x00000478       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-atoi.o)
+ .ARM.attributes
+                0x000004a8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x000004d8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000508       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000538       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000568       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x00000598       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o)
+ .ARM.attributes
+                0x000005c8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_sin.o)
+ .ARM.attributes
+                0x000005f8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-w_atan2.o)
+ .ARM.attributes
+                0x00000628       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o)
+ .ARM.attributes
+                0x00000658       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o)
+ .ARM.attributes
+                0x00000688       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_cos.o)
+ .ARM.attributes
+                0x000006b8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o)
+ .ARM.attributes
+                0x000006e8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_sin.o)
+ .ARM.attributes
+                0x00000718       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_atan.o)
+ .ARM.attributes
+                0x00000748       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_fabs.o)
+ .ARM.attributes
+                0x00000778       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_floor.o)
+ .ARM.attributes
+                0x000007a8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_scalbn.o)
+ .ARM.attributes
+                0x000007d8       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_copysign.o)
+ .ARM.attributes
+                0x00000808       0x16 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000081e       0x16 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000834       0x14 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000848       0x16 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000085e       0x16 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000874       0x16 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000088a       0x16 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x000008a0       0x37 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+
+.debug_frame    0x00000000     0x3e6c
+ .debug_frame   0x00000000     0x1710 Debug/bbmc-0.5.o
+ .debug_frame   0x00001710      0x390 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_frame   0x00001aa0      0x6b4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(ehrpwm.o)
+ .debug_frame   0x00002154      0x254 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(eqep.o)
+ .debug_frame   0x000023a8      0x2c8 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(gpio_v2.o)
+ .debug_frame   0x00002670      0x278 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(pwmss.o)
+ .debug_frame   0x000028e8       0x2c ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(cmdline.o)
+ .debug_frame   0x00002914       0x64 ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(perf.o)
+ .debug_frame   0x00002978      0x16c ../../../../../..//bin/armv7a/gcc/utils/Debug/libutils.a(uartStdio.o)
+ .debug_frame   0x00002ae4       0xa0 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_dmtimer.o)
+ .debug_frame   0x00002b84      0x130 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_gpio.o)
+ .debug_frame   0x00002cb4       0x80 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_pwmss.o)
+ .debug_frame   0x00002d34       0x48 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_sysperf.o)
+ .debug_frame   0x00002d7c       0xb8 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uartConsole.o)
+ .debug_frame   0x00002e34       0x40 ../../../../../..//bin/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(bb_uart.o)
+ .debug_frame   0x00002e74      0x128 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cache.o)
+ .debug_frame   0x00002f9c      0x314 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_frame   0x000032b0       0x48 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_frame   0x000032f8       0xd4 ../../../../../..//bin/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_frame   0x000033cc       0x40 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-atoi.o)
+ .debug_frame   0x0000340c       0x20 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-errno.o)
+ .debug_frame   0x0000342c       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .debug_frame   0x0000345c       0x50 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libc.a(lib_a-strtol.o)
+ .debug_frame   0x000034ac       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_cos.o)
+ .debug_frame   0x000034dc       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_sin.o)
+ .debug_frame   0x0000350c       0x28 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-w_atan2.o)
+ .debug_frame   0x00003534       0x38 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_atan2.o)
+ .debug_frame   0x0000356c       0x38 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-e_rem_pio2.o)
+ .debug_frame   0x000035a4       0x38 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_cos.o)
+ .debug_frame   0x000035dc       0x3c /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_rem_pio2.o)
+ .debug_frame   0x00003618       0x38 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-k_sin.o)
+ .debug_frame   0x00003650       0x38 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_atan.o)
+ .debug_frame   0x00003688       0x2c /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x000036b4       0x38 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_floor.o)
+ .debug_frame   0x000036ec       0x30 /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x0000371c       0x2c /home/vassilis/Projects/compilers/cs_q1_2009_161/arm-none-eabi/lib//libm.a(lib_a-s_copysign.o)
+ .debug_frame   0x00003748       0x20 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_udivsi3.o)
+ .debug_frame   0x00003768       0x20 /home/vassilis/Projects/compilers/cs_q1_2009_161/lib/gcc/arm-none-eabi/4.3.3//libgcc.a(_divsi3.o)
+ .debug_frame   0x00003788      0x6e4 ../../../../../..//bin/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
