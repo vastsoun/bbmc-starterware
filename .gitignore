@@ -1,5 +1,4 @@
 test/
-apps/
 bin/
 binary/
 *.o*
