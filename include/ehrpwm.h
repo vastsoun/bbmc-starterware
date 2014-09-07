@@ -145,8 +145,8 @@ extern "C" {
 #define EHRPWM_WRITE_B          (2)
 
 
-/*
- * Driver Data Structs
+/** 
+ *  Driver Data Structs
 */
 
 typedef char bool;

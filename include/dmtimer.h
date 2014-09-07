@@ -151,11 +151,9 @@ extern "C" {
 #define TIMERS_PERIOD_DEFAULT           DMTIMER_1MS
 
 
-/*
+/**
  * Driver Data Structs
 */
-
-typedef char bool;
 
 
 /**
