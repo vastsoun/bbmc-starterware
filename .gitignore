@@ -1,7 +1,7 @@
 test/
 bin/
 binary/
-*.o*
-*.out*
-*.bin*
-*.map*
+*.o
+*.out
+*.bin
+*.map
