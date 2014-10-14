@@ -8,4 +8,4 @@ binary/
 Release
 Debug
 *.geany~
-*.geany
+*.geany*
