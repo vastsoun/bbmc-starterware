@@ -5,3 +5,7 @@ binary/
 *.out
 *.bin
 *.map
+Release
+Debug
+*.geany~
+*.geany
