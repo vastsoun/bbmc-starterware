@@ -546,7 +546,7 @@ int bbmc_goto_home (void);
 
 /* trajecotry generators */
 
-int signalgen_prbs_v0 (datalog_s_t *datalog, int data_index);
+//int signalgen_prbs_v0 (datalog_s_t *datalog, int data_index);
 
 int signalgen_prbs_v1 (datalog_s_t *datalog, int *prbs_table,
                                     int duration, int idle_time, int data_index);
@@ -2109,7 +2109,7 @@ contrl_rmpi_breakaway (bbmc_dof_state_t volatile *state,
                        bbmc_dof_contrl_t volatile *controller)
 {
 
-    if ((g_isr_state.iteration_counter%(controller->arg_int[3])) == 0)
+    if ((g_isr_state.iteration_counter%(controller->arg_int[2])) == 0)
     {
         controller->output.value += (controller->arg_double[0] * controller->arg_int[0]);
 
@@ -2537,7 +2537,7 @@ static void
 term_rmpi_breakaway (bbmc_dof_state_t volatile *state,
                      bbmc_dof_contrl_t volatile *controller)
 {
-    if (fabs(state->state.speed) > controller->arg_int[2])
+    if (fabs(state->state.speed) > controller->arg_int[4])
     {
         g_isr_state.termination_flag = 1;
         g_flags.isr_return = ISR_RETURN_CLEAN;
@@ -2842,6 +2842,7 @@ util_delay (int count)
 
 /* SIGNAL GENERATORS */
 
+/*
 int
 signalgen_prbs_v0 (datalog_s_t *datalog, int data_index)
 {
@@ -2860,7 +2861,7 @@ signalgen_prbs_v0 (datalog_s_t *datalog, int data_index)
         datalog->log[data_index].data[i] = 0;
     }
 
-    /* set the switch points */
+    // set the switch point
     datalog->log[data_index].data[715] = 1;
     datalog->log[data_index].data[1951] = -1;
     datalog->log[data_index].data[2540] = 1;
@@ -2886,7 +2887,7 @@ signalgen_prbs_v0 (datalog_s_t *datalog, int data_index)
     datalog->log[data_index].data[19298] = 1;
     datalog->log[data_index].data[19412] = 0;
 
-    /* fill the rest of the signal */
+    // fill the rest of the signal
     temp = 1;
 
     for (i=714; i < 19412; i++)
@@ -2906,7 +2907,7 @@ signalgen_prbs_v0 (datalog_s_t *datalog, int data_index)
 
     return 0;
 }
-
+*/
 
 int
 signalgen_prbs_v1 (datalog_s_t *datalog,
@@ -4619,7 +4620,7 @@ func_rmpi(unsigned int rmpi_dof)
     bbmc_cisr_init(&g_isr_state);
     sysconfig_contrl_stop_init();
 
-    sysconfig_qei_data_init(TIMER_RMPI, rmpi_dof);
+    //sysconfig_qei_data_init(TIMER_RMPI, rmpi_dof);
 
     UARTPuts("\r\n\r\nEXECUTING..\r\n", -1);
 
@@ -4655,20 +4656,15 @@ func_rmpi(unsigned int rmpi_dof)
 
     if (g_flags.datalog == 1)
     {
-        char buff[8];
-        int test = util_checkpoint_yn("\r\nPrint datalog? [Y/n]: ", buff);
+        int range[4];
 
-        if (test == 1)
-        {
-            int range[4];
+        range[0] = 0;
+        range[1] = g_isr_state.iteration_counter;
+        range[2] = 0;
+        range[3] = DATALOG_STATIC_DATASIZE;
 
-            range[0] = 0;
-            range[1] = g_isr_state.iteration_counter;
-            range[2] = 0;
-            range[3] = DATALOG_STATIC_DATASIZE;
+        datalog_s_print(rmpi_log, range);
 
-            datalog_s_print(rmpi_log, range);
-        }
     }
 
     return (RETURN_RMPI + g_flags.isr_return);
@@ -6340,9 +6336,6 @@ cmnd_config(int argc, char *argv[])
 int
 cmnd_rmpi_break(int argc, char *argv[], bbmc_cmd_args_t *args)
 {
-    static char *rmpi_goto_format =
-    "\r\nReset to starting position? [Y/n]: ";
-
     static char *rmpi_break_format =
     "\r\nProceed with Break-Away procedure? [Y/n]: ";
 
@@ -6389,24 +6382,7 @@ cmnd_rmpi_break_args(int argc, char *argv[], bbmc_cmd_args_t *args)
 
     int temp;
     int posinit = 1000;
-    int posmax;
-
-    cmnd_run_position_init(1000, 1000);
-
-    if (dof_id == 1)
-    {
-        posmax = RMPI_BREAKAWAY_STOP_POSITION_Y_P;
-    }
-
-    else if (dof_id == 2)
-    {
-        posmax = RMPI_BREAKAWAY_STOP_POSITION_X_P;
-    }
-
-    else
-    {
-        return -1;
-    }
+    int posmax = 1500000;
 
     rmpi_state   = &g_dof_state[dof_id - 1];
     rmpi_args    = &g_args_contrl[dof_id - 1];
@@ -6415,17 +6391,17 @@ cmnd_rmpi_break_args(int argc, char *argv[], bbmc_cmd_args_t *args)
 
     /* control argument map:
      *
-     *  i0: direction      i4:                 d0: torque-increm    d4:
-     *  i1: pos-thresh     i5:                 d1:                  d5:
-     *  i2: veloc-thresh   i6:                 d2:                  d6:
-     *  i3:                i7:                 d3:                  d7:
+     *  i0: direction      i4: speed thresh    d0: duty increm      d4:
+     *  i1: max dist       i5:                 d1:                  d5:
+     *  i2: step period    i6:                 d2:                  d6:
+     *  i3: step increm    i7:                 d3:                  d7:
     */
 
     /* default setup */
     rmpi_args->arg_int[0]    = 1;
     rmpi_args->arg_int[1]    = posmax;
-    rmpi_args->arg_int[2]    = RMPI_BREAKAWAY_STOP_SPEED;
-    rmpi_args->arg_int[3]    = RMPI_BREAKAWAY_STEP_INCREM;
+    rmpi_args->arg_int[4]    = 1000;
+    rmpi_args->arg_int[2]    = 20;
     rmpi_args->arg_double[0] = 0.05;
 
     rmpi_args->output.value = 0;
@@ -6445,27 +6421,29 @@ cmnd_rmpi_break_args(int argc, char *argv[], bbmc_cmd_args_t *args)
                     return (RETURN_ERROR_INVALID_OPT_VAL);
                 }
 
+                rmpi_args->arg_double[0] = (rmpi_args->arg_int[3] / 100);
+
                 i++;
             }
 
             else if (!strcmp((const char *)argv[i], "-st"))
             {
-                rmpi_args->arg_int[2] = atoi(argv[i+1]);
+                rmpi_args->arg_int[4] = atoi(argv[i+1]);
 
-                if (rmpi_args->arg_int[2] > 10000 || rmpi_args->arg_int[2] < 0){
+                if (rmpi_args->arg_int[4] > 10000 || rmpi_args->arg_int[4] < 10){
 
-                    UARTPuts("\r\ncmnd_rmpi_break_args: error: Invalid value for maximum velocity. Value must be in [1,1000] range.\r\n", -1);
+                    UARTPuts("\r\ncmnd_rmpi_break_args: error: Invalid value for maximum velocity. Value must be in [10,10000] range.\r\n", -1);
                     return (RETURN_ERROR_INVALID_OPT_VAL);
                 }
 
                 i++;
             }
 
-            else if (!strcmp((const char *)argv[i], "-dt"))
+            else if (!strcmp((const char *)argv[i], "-dx"))
             {
                 rmpi_args->arg_int[1] = atoi(argv[i+1]);
 
-                if (rmpi_args->arg_int[1] > posmax || rmpi_args->arg_int[1] < 0){
+                if (rmpi_args->arg_int[1] > 1800000 || rmpi_args->arg_int[1] < 1000){
 
                     UARTPuts("\r\ncmnd_rmpi_break_args: error: Invalid value for maximum distance. Value must be in physical range.\r\n", -1);
                     return (RETURN_ERROR_INVALID_OPT_VAL);
@@ -6474,18 +6452,29 @@ cmnd_rmpi_break_args(int argc, char *argv[], bbmc_cmd_args_t *args)
                 i++;
             }
 
-            else if (!strcmp((const char *)argv[i], "-d"))
+            else if (!strcmp((const char *)argv[i], "-dt"))
+            {
+                rmpi_args->arg_int[2] = atoi(argv[i+1]);
+
+                if (rmpi_args->arg_int[2] > 1000 || rmpi_args->arg_int[2] < 10){
+
+                    UARTPuts("\r\ncmnd_rmpi_break_args: error: Invalid value increment period. Value must be in [10,1000] range.\r\n", -1);
+                    return (RETURN_ERROR_INVALID_OPT_VAL);
+                }
+
+                i++;
+            }
+
+            else if (!strcmp((const char *)argv[i], "-dir"))
             {
                 if (!strcmp((const char *)argv[i+1], "+"))
                 {
                     rmpi_args->arg_int[0] = 1;
-                    cmnd_run_position_init(1000, 1000);
                 }
 
                 else if (!strcmp((const char *)argv[i+1], "-"))
                 {
                     rmpi_args->arg_int[0] = -1;
-                    cmnd_run_position_init(posmax, posmax);
                 }
 
                 else
@@ -6512,6 +6501,7 @@ int
 cmnd_rmpi_break_func(bbmc_cmd_args_t *args)
 {
     int dof_id = args->arg_int[0];
+    int iteration, direction, init_pos, max_move_distance, command_step, step_period, speed_max;
     int ret;
     int i;
 
@@ -6535,19 +6525,49 @@ cmnd_rmpi_break_func(bbmc_cmd_args_t *args)
         rmpi_io.output_func = output_pwm_dir;
     #endif
 
-    //!
+    // system flags set-up
     g_flags.datalog = 1;
     g_flags.exec_checkpoint = 1;
-
     bbmc_sysflags_clear(&g_flags, "-isr");
 
-    /*while (fabs(state->state.count[1] - controller->arg_int[1]) <=
-               RMPI_BREAKAWAY_STOP_POSITION_THR)
+    // set-up params
+    direction = rmpi_args->arg_int[0];
+
+    if (direction > 0)
     {
+        init_pos = 1000;
+    }
+    else
+    {
+        init_pos = 2000000;
+    }
+
+    sysconfig_position_set (dof_id, init_pos);
+
+    max_move_distance = rmpi_args->arg_int[1];
+    command_step =  rmpi_args->arg_int[3];
+    step_period =  rmpi_args->arg_int[2];
+    speed_max =  rmpi_args->arg_int[4];
+    iteration = 0;
+
+    // BA experiment execution
+    while ( abs((int)g_dof_state[i].state.count[(dof_id-1)] - init_pos) < max_move_distance )
+    {
+        // DataLog Header
+        UARTPuts("\r\nEXPERIMENT_START.\r\n", -1);
+        UARTprintf("\r\nexperiemnt,dof_id,direction,max_move_distance,command_step,step_period,speed_max,iteration\r\n");
+        UARTprintf("RMPI::BA,%d,%d,%d,%d,%d,%d,%d\r\n", (int)dof_id, (int)direction, (int)max_move_distance, (int)(100*command_step), (int)step_period,(int)speed_max , (int)iteration);
+
         ret = func_rmpi(dof_id);
-    }*/
 
+        UARTPuts("\r\nEXPERIMENT_END.\r\n", -1);
 
+        // get current position
+        bbmc_contrl_input();
+        iteration++;
+    }
+
+    // closing message
     UARTPuts("\r\nRMPI::BREAK-Away has completed.\r\n", -1);
 
     UARTPuts("\r\nReturning to BBMC-CLI.\r\n", -1);
@@ -6576,10 +6596,15 @@ cmnd_rmpi_dstep(int argc, char *argv[], bbmc_cmd_args_t *args)
     static char *rmpi_goto_format =
     "\r\nReset to starting position? [Y/n]: ";
 
-    static char *rmpi_step2_format =
-    "\r\nProceed with 2-Step-Response procedure? [Y/n]: ";
+    static char *rmpi_dstep_format =
+    "\r\n Proceed with Down-Step experiment protocol? [Y/n]: ";
 
     char buff[RX_BUFF_SIZE];
+
+
+
+
+
 
 
     return 0;
@@ -7183,32 +7208,32 @@ cmnd_rmpi(int argc, char *argv[])
 
     if (argc > 2)
     {
-        if (!strcmp((const char *)argv[1],"-break"))
+        if (!strcmp((const char *)argv[1],"break"))
         {
             return cmnd_rmpi_break(argc, argv, &args);
         }
 
-        else if (!strcmp((const char *)argv[1],"-step"))
+        else if (!strcmp((const char *)argv[1],"step"))
         {
             return cmnd_rmpi_step(argc, argv, &args);
         }
 
-        else if (!strcmp((const char *)argv[1],"-dstep"))
+        else if (!strcmp((const char *)argv[1],"dstep"))
         {
-            return cmnd_rmpi_step2(argc, argv, &args);
+            return cmnd_rmpi_dstep(argc, argv, &args);
         }
 
-        else if (!strcmp((const char *)argv[1],"-sine"))
+        else if (!strcmp((const char *)argv[1],"sine"))
         {
             return cmnd_rmpi_sine(argc, argv, &args);
         }
 
-        else if (!strcmp((const char *)argv[1],"-pid"))
+        else if (!strcmp((const char *)argv[1],"pid"))
         {
             return cmnd_rmpi_pid_tune(argc, argv, &args);
         }
 
-        else if (!strcmp((const char *)argv[1],"-si"))
+        else if (!strcmp((const char *)argv[1],"si"))
         {
             return cmnd_rmpi_si(argc, argv, &args);
         }

@@ -3,7 +3,7 @@
  *
  * \brief  the bbmc-0.5.x application header
  */
- 
+
 
 #ifndef _BBMC_0_5_H_
 #define _BBMC_0_5_H_
@@ -14,10 +14,10 @@ extern "C" {
 
 
 
-/* 
+/*
  * BBMC CONFIGURATION MACROS
  */
- 
+
 /* bbmc number of actuators to control */
 #define BBMC_DOF_NUM                    (2)
 
@@ -91,7 +91,7 @@ extern "C" {
 #define MAX_SPEED_MOTOR_2               (318667)
 
 
-/* 
+/*
  * BBMC HARDWARE MACROS
  */
 
@@ -110,13 +110,13 @@ extern "C" {
 #define DMTIMER_STOP                    (SOC_DMTIMER_5_REGS)
 
 #define DIR_1_GPIO_ADDRESS              (SOC_GPIO_1_REGS)
-#define DIR_1_GPIO_PIN_ADDRESS          (GPIO_1_7)     
+#define DIR_1_GPIO_PIN_ADDRESS          (GPIO_1_7)
 #define DIR_1_GPIO_PIN_MODE             (CONTROL_CONF_MUXMODE(7))
 #define DIR_1_GPIO_PIN                  (7)
 #define DIR_1_GPIO_PIN_DIR              (GPIO_DIR_OUTPUT)
 
 #define DIR_2_GPIO_ADDRESS              (SOC_GPIO_1_REGS)
-#define DIR_2_GPIO_PIN_ADDRESS          (GPIO_1_3)     
+#define DIR_2_GPIO_PIN_ADDRESS          (GPIO_1_3)
 #define DIR_2_GPIO_PIN_MODE             (CONTROL_CONF_MUXMODE(7))
 #define DIR_2_GPIO_PIN                  (3)
 #define DIR_2_GPIO_PIN_DIR              (GPIO_DIR_OUTPUT)
@@ -134,10 +134,10 @@ extern "C" {
 #define KILLSWITCH_GPIO_INT_LINE        (GPIO_INT_LINE_2)
 #define KILLSWITCH_GPIO_DEBOUCE_TIME    (1000)
 
-/* 
+/*
  * BBMC CLI COMMAND MACROS
  */
- 
+
 #define MAX_CMD_NAME_SIZE               (16)
 #define MAX_NUM_COMMANDS                (13)
 #define MAX_HELP_SIZE                   (256)
@@ -223,7 +223,7 @@ extern "C" {
 
 #define RETURN_STATUS_SYSDIAG           (10)//!
 
-/* 
+/*
  * BBMC FUNCTIONALITY MACROS
  */
 
@@ -259,7 +259,7 @@ extern "C" {
 #define RMPI_BREAKAWAY_STOP_POSITION_X_P (450000)
 #define RMPI_BREAKAWAY_STOP_POSITION_N   (1000)
 #define RMPI_BREAKAWAY_STOP_POSITION_THR (500)//!
-#define RMPI_BREAKAWAY_STEP_INCREM       (50)//!
+#define RMPI_BREAKAWAY_INCREM_PERIOD     (20)//!
 
 #define POSCALIB_MAX_DUTY_Y             (20)//!
 #define POSCALIB_SPEED_DEST_Y           (20000)//!
@@ -282,19 +282,19 @@ extern "C" {
 #define CONTROLLER_ARG_INT_NUM          (8)
 
 
-/* 
+/*
  * BBMC UTILS MACROS
  */
- 
+
 #define RX_BUFF_SIZE                    (128)
 
-/* 
+/*
  * BBMC TRAJECTORY MACROS
  */
- 
+
 #define TRAJECTORY_POINTS_NUM           (DATA_SIGLEN_MAX)
 
-/* 
+/*
  * BBMC SIGNAL-GEN MACROS
  */
 
@@ -374,7 +374,7 @@ extern "C" {
                                     9665,1,9684,-1,9700,1,9723,-1,9740,1,9751,-1,9772,1,9782,-1,\
                                     9801,1,9821,-1,9832,1,9842,-1,9852,1,9862,-1,9873,1,9898,-1,\
                                     9905,1,9931,-1,9938,1,9964,-1,9977,1,9994,0}
-                                    
+
 #define SIGNAL_PRBS_V2_SWITCH_NUM   590
 #define SIGNAL_PRBS_V2_ARRAY_SIZE   1180
 #define SIGNAL_PRBS_V2_SWITCH_INIT  {27,1,43,-1,66,1,82,-1,105,1,118,-1,145,1,157,-1,\
@@ -451,7 +451,7 @@ extern "C" {
                                     9665,1,9684,-1,9700,1,9723,-1,9740,1,9751,-1,9772,1,9782,-1,\
                                     9801,1,9821,-1,9832,1,9842,-1,9852,1,9862,-1,9873,1,9898,-1,\
                                     9905,1,9931,-1,9938,1,9964,-1,9977,1,9994,0}
-                                    
+
 #define SIGNAL_PULSE_SWITCH_NUM       33
 
 #define SIGNAL_PULSE_ARRAY_SIZE       66
@@ -482,17 +482,17 @@ extern "C" {
 /*
  * DATA DEFINITIONS
  *
- * Description: 
- *   
+ * Description:
+ *
  */
 
 typedef double data_t;
 
-/* 
- * DATALOG STRUCTURES - STATIC 
- * 
+/*
+ * DATALOG STRUCTURES - STATIC
+ *
  * NOTE: use datalog.h when bbmc-0.5 will be refactored (possibly bbmc-0.5)
- * 
+ *
  */
 typedef struct
 {
@@ -503,10 +503,10 @@ dataset_s_t;
 typedef struct
 {
     dataset_s_t log[DATALOG_STATIC_DATALEN];
-    
+
     int d_size;
     int l_size;
-    
+
     int d_index;
     int l_index;
 }
@@ -532,10 +532,10 @@ typedef gpio_device_pin_t      bbmc_dev_gpio_pin_t;
 
 typedef struct
 {
-    bbmc_output_pwm_t   value;    
-    
+    bbmc_output_pwm_t   value;
+
     unsigned int         dof_id;
-    
+
 }
 bbmc_dof_output_t;
 
@@ -543,7 +543,7 @@ bbmc_dof_output_t;
 typedef struct
 {
     bbmc_input_qei_t   state;
-    
+
     unsigned int        dof_id;
 }
 bbmc_dof_state_t;
@@ -552,29 +552,29 @@ bbmc_dof_state_t;
 /*
  * BBMC ARLGORITHM STRUCTS
  */
- 
-typedef struct 
+
+typedef struct
 {
     double x_0;
     double y_0;
-    
+
     double x_f;
     double y_f;
-    
+
     double time_a;
     double time_d;
     double time_ss;
-    
+
     double time_s;
     double time_f;
-    
+
     double speed_ss;
-    
+
     double acc_a;
     double acc_d;
-    
+
     double sampling_period;
-    
+
     double volatile time_current;
 }
 sg_trapez_t;
@@ -583,10 +583,10 @@ sg_trapez_t;
 typedef struct
 {
     double sampling_period;
-    
+
     double frequency;
     double phase;
-    
+
     double volatile offset;
     double volatile amplitude;
 }
@@ -596,13 +596,13 @@ sg_sine_t;
 typedef struct
 {
     sg_sine_t sine;
-    
+
     double x_0;
     double y_0;
-    
+
     double x_f;
     double y_f;
-    
+
     double duration;
 }
 sg_sinusoid_t;
@@ -611,19 +611,19 @@ sg_sinusoid_t;
 typedef struct
 {
     sg_sine_t sine;
-    
+
     double x_0;
     double y_0;
-    
+
     double x_c;
     double y_c;
-    
+
     double radius;
 }
 sg_circle_t;
 
 
-typedef struct 
+typedef struct
 {
     double  q;
     double  q_dot;
@@ -632,7 +632,7 @@ typedef struct
 jointspace_state_t;
 
 
-typedef struct 
+typedef struct
 {
     double  x;
     double  x_dot;
@@ -662,25 +662,25 @@ typedef struct
 bbmc_cmd_args_t;
 
 
-typedef struct 
+typedef struct
 {
     unsigned int limval[2];
 }
 bbmc_dof_limits_t;
 
 
-typedef struct 
+typedef struct
 {
     /* standard system flags */
     int cmdln;
     int debug;
-    
+
     int perf;
     int datalog;
-    
+
     int exec_checkpoint;
     int contrl_run;
-    
+
     /* ISR relative flags */
     int volatile isr_return;
     int volatile stop_immediate;
@@ -698,16 +698,16 @@ typedef struct
 bbmc_cisr_t;
 
 
-typedef struct 
+typedef struct
 {
     jointspace_state_t    state_desired;
-    
+
     double volatile       arg_double[CONTROLLER_ARG_DOUBLE_NUM];
-    
+
     bbmc_dof_output_t     output;
-    
-    int                     arg_int[CONTROLLER_ARG_INT_NUM];
-    
+
+    int                   arg_int[CONTROLLER_ARG_INT_NUM];
+
     //! this may be redundant. dof_id already in output struct.
     unsigned int           dof_id;
 }
@@ -726,18 +726,18 @@ typedef void    (*bbmc_output_fp_t) (bbmc_dof_output_t volatile *output);
 
 /* system controller function types */
 
-typedef void    (*bbmc_contrl_fp_t) (bbmc_dof_state_t volatile *state, 
+typedef void    (*bbmc_contrl_fp_t) (bbmc_dof_state_t volatile *state,
                                          bbmc_dof_contrl_t volatile *contrl);
 
 
 /*
  * BBMC INFRASTRUCTURE - FUNCTION TYPE-DEFS
- * 
+ *
  * Note: these are only used for the test
- * 
+ *
  */
 
-typedef struct 
+typedef struct
 {
     bbmc_contrl_fp_t traject_func;
     bbmc_contrl_fp_t contrl_func;
@@ -746,7 +746,7 @@ typedef struct
 bbmc_contrl_funcs_t;
 
 
-typedef struct 
+typedef struct
 {
     bbmc_input_fp_t   input_func;
     bbmc_output_fp_t  output_func;
@@ -763,10 +763,10 @@ bbmc_io_func_tbl_t;
 
 
 
-/* 
- * Experimental features 
+/*
+ * Experimental features
  */
- 
+
 typedef struct
 {
     unsigned int ticks;
